@@ -1,0 +1,6 @@
+#ifndef FILESTAT_HELP_PRINTER_H
+#define FILESTAT_HELP_PRINTER_H
+
+void print_help();
+
+#endif //FILESTAT_HELP_PRINTER_H
