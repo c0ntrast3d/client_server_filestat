@@ -17,6 +17,7 @@ struct AppConfig {
     int noscan;
     const char *inputFileName;
     const char *outputFileName;
+    int optionsCount;
 };
 
 struct AppConfig init_app_config();

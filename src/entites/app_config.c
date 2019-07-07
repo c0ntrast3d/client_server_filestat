@@ -1,5 +1,6 @@
 #include <stddef.h>
 #include "app_config.h"
+#include "constants.h"
 
 struct AppConfig init_app_config() {
     struct AppConfig cleanArgs;
@@ -16,7 +17,8 @@ struct AppConfig init_app_config() {
     cleanArgs.lengthMin = 0;
     cleanArgs.lengthMax = 0;
     cleanArgs.noscan = 0;
-    cleanArgs.inputFileName = NULL;
-    cleanArgs.outputFileName = NULL;
+    cleanArgs.inputFileName = DEFAULT_INPUT_FILE_NAME;
+    cleanArgs.outputFileName = DEFAULT_OUTPUT_FILE_NAME;
+    cleanArgs.optionsCount = 0;
     return cleanArgs;
 }

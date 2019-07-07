@@ -1,6 +1,7 @@
 #ifndef FILESTAT_CONSTANTS_H
 #define FILESTAT_CONSTANTS_H
 
-
+#define DEFAULT_INPUT_FILE_NAME "filestat.in"
+#define DEFAULT_OUTPUT_FILE_NAME "filestat.db"
 
 #endif //FILESTAT_CONSTANTS_H

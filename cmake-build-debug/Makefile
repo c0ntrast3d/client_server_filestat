@@ -285,6 +285,60 @@ src/utils/app_config_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s
 .PHONY : src/utils/app_config_producer.c.s
 
+src/utils/options_parser.o: src/utils/options_parser.c.o
+
+.PHONY : src/utils/options_parser.o
+
+# target to build an object file
+src/utils/options_parser.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/options_parser.c.o
+.PHONY : src/utils/options_parser.c.o
+
+src/utils/options_parser.i: src/utils/options_parser.c.i
+
+.PHONY : src/utils/options_parser.i
+
+# target to preprocess a source file
+src/utils/options_parser.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/options_parser.c.i
+.PHONY : src/utils/options_parser.c.i
+
+src/utils/options_parser.s: src/utils/options_parser.c.s
+
+.PHONY : src/utils/options_parser.s
+
+# target to generate assembly for a file
+src/utils/options_parser.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/options_parser.c.s
+.PHONY : src/utils/options_parser.c.s
+
+src/utils/params_parser.o: src/utils/params_parser.c.o
+
+.PHONY : src/utils/params_parser.o
+
+# target to build an object file
+src/utils/params_parser.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/params_parser.c.o
+.PHONY : src/utils/params_parser.c.o
+
+src/utils/params_parser.i: src/utils/params_parser.c.i
+
+.PHONY : src/utils/params_parser.i
+
+# target to preprocess a source file
+src/utils/params_parser.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/params_parser.c.i
+.PHONY : src/utils/params_parser.c.i
+
+src/utils/params_parser.s: src/utils/params_parser.c.s
+
+.PHONY : src/utils/params_parser.s
+
+# target to generate assembly for a file
+src/utils/params_parser.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/params_parser.c.s
+.PHONY : src/utils/params_parser.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +366,12 @@ help:
 	@echo "... src/utils/app_config_producer.o"
 	@echo "... src/utils/app_config_producer.i"
 	@echo "... src/utils/app_config_producer.s"
+	@echo "... src/utils/options_parser.o"
+	@echo "... src/utils/options_parser.i"
+	@echo "... src/utils/options_parser.s"
+	@echo "... src/utils/params_parser.o"
+	@echo "... src/utils/params_parser.i"
+	@echo "... src/utils/params_parser.s"
 .PHONY : help
 
 

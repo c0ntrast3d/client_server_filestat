@@ -114,6 +114,18 @@
 		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/app_config_producer.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

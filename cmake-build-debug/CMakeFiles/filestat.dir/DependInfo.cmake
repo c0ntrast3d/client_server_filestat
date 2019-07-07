@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/help_printer.c" "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir/src/io/help_printer.c.o"
   "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/main.c" "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir/src/main.c.o"
   "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/app_config_producer.c" "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o"
+  "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c" "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/options_parser.c.o"
+  "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c" "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/params_parser.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

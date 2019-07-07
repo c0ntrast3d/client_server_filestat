@@ -10,4 +10,11 @@ void start(int argc, char **argv) {
     printf("--stat = %d", config.stat);
     puts(":");
     printf("--inputFile = %s", config.inputFileName);
+    puts(":");
+    printf("--history = %d", config.history);
+    puts(":");
+    printf("--historyArgument = %s", config.historyTarget);
+    puts(":");
+    puts(config.inputFileName);
+    puts(config.outputFileName);
 }

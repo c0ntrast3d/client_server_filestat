@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "io/help_printer.h"
 #include "controller/controller.h"
 
@@ -8,6 +9,7 @@
 
 int main(int argc, char **argv) {
     if (argc <= 1) {
+        puts("No parameters specified!\n");
         print_help();
     } else {
         start(argc, argv);

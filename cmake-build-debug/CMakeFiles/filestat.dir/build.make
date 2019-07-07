@@ -135,6 +135,32 @@ CMakeFiles/filestat.dir/src/entites/app_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/entites/app_config.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/app_config.c -o CMakeFiles/filestat.dir/src/entites/app_config.c.s
 
+CMakeFiles/filestat.dir/src/utils/options_parser.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/utils/options_parser.c.o: ../src/utils/options_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/filestat.dir/src/utils/options_parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/utils/options_parser.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c
+
+CMakeFiles/filestat.dir/src/utils/options_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/utils/options_parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c > CMakeFiles/filestat.dir/src/utils/options_parser.c.i
+
+CMakeFiles/filestat.dir/src/utils/options_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/utils/options_parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c -o CMakeFiles/filestat.dir/src/utils/options_parser.c.s
+
+CMakeFiles/filestat.dir/src/utils/params_parser.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/utils/params_parser.c.o: ../src/utils/params_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/filestat.dir/src/utils/params_parser.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/utils/params_parser.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c
+
+CMakeFiles/filestat.dir/src/utils/params_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/utils/params_parser.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c > CMakeFiles/filestat.dir/src/utils/params_parser.c.i
+
+CMakeFiles/filestat.dir/src/utils/params_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/utils/params_parser.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c -o CMakeFiles/filestat.dir/src/utils/params_parser.c.s
+
 # Object files for target filestat
 filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/main.c.o" \
@@ -142,7 +168,9 @@ filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/controller/controller.c.o" \
 "CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o" \
 "CMakeFiles/filestat.dir/src/io/help_printer.c.o" \
-"CMakeFiles/filestat.dir/src/entites/app_config.c.o"
+"CMakeFiles/filestat.dir/src/entites/app_config.c.o" \
+"CMakeFiles/filestat.dir/src/utils/options_parser.c.o" \
+"CMakeFiles/filestat.dir/src/utils/params_parser.c.o"
 
 # External object files for target filestat
 filestat_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ filestat: CMakeFiles/filestat.dir/src/controller/controller.c.o
 filestat: CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o
 filestat: CMakeFiles/filestat.dir/src/io/help_printer.c.o
 filestat: CMakeFiles/filestat.dir/src/entites/app_config.c.o
+filestat: CMakeFiles/filestat.dir/src/utils/options_parser.c.o
+filestat: CMakeFiles/filestat.dir/src/utils/params_parser.c.o
 filestat: CMakeFiles/filestat.dir/build.make
 filestat: CMakeFiles/filestat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable filestat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable filestat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filestat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

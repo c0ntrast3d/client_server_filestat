@@ -9,5 +9,6 @@ const struct option LongOptions[] = {
         {"user",    required_argument, NULL, 'u'},
         {"group",   required_argument, NULL, 'g'},
         {"length",  required_argument, NULL, 'l'},
-        {"noscan",  no_argument,       NULL, 'n'}
+        {"noscan",  no_argument,       NULL, 'n'},
+        {NULL, 0,                      NULL, 0}
 };

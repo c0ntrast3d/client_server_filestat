@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o"
   "CMakeFiles/filestat.dir/src/io/help_printer.c.o"
   "CMakeFiles/filestat.dir/src/entites/app_config.c.o"
+  "CMakeFiles/filestat.dir/src/utils/options_parser.c.o"
+  "CMakeFiles/filestat.dir/src/utils/params_parser.c.o"
   "filestat.pdb"
   "filestat"
 )

@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/options.c
-getopt.h
+/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/app_config.h
+
+/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c
+stddef.h
 -
+params_parser.h
+/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.h
+
+/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.h
+../entites/app_config.h
+/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/app_config.h
 
