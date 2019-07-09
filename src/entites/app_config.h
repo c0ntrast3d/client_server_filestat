@@ -1,7 +1,11 @@
 #ifndef FILESTAT_APP_CONFIG_H
 #define FILESTAT_APP_CONFIG_H
 
-struct AppConfig {
+#include <stddef.h>
+#include "app_config.h"
+#include "constants.h"
+
+typedef struct AppConfig_t {
     int verbose;
     int stat;
     int report;
@@ -15,11 +19,11 @@ struct AppConfig {
     int lengthMin;
     int lengthMax;
     int noscan;
-    const char *inputFileName;
+    char *inputFileName;
     const char *outputFileName;
     int optionsCount;
-};
+} AppConfig;
 
-struct AppConfig init_app_config();
+AppConfig init_app_config();
 
 #endif //FILESTAT_APP_CONFIG_H

@@ -1,9 +1,7 @@
-#include <stddef.h>
 #include "app_config.h"
-#include "constants.h"
 
-struct AppConfig init_app_config() {
-    struct AppConfig cleanArgs;
+AppConfig init_app_config() {
+    AppConfig cleanArgs;
     cleanArgs.verbose = 0;
     cleanArgs.stat = 0;
     cleanArgs.report = 0;

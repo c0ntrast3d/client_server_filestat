@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <inttypes.h>
-#include "../entites/options.h"
+#include "../entites/cli_options.h"
 #include "../io/help_printer.h"
 #include <regex.h>
 
@@ -16,7 +16,7 @@ struct LengthMinMax {
 
 static struct LengthMinMax try_get_length_min_max(char *inputString);
 
-void parse_options(int argc, char **argv, struct AppConfig *currentConfiguration) {
+void parse_options(int argc, char **argv, AppConfig *currentConfiguration) {
     int optionIndex = 0;
     int currentOption = getopt_long(argc, argv, shortOptions, &LongOptions, &optionIndex);
     while (currentOption != -1) {

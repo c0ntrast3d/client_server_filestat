@@ -3,5 +3,6 @@
 
 #define DEFAULT_INPUT_FILE_NAME "filestat.in"
 #define DEFAULT_OUTPUT_FILE_NAME "filestat.db"
+#define INPUT_PARAMETER_ARGUMENTS_COUNT 2
 
 #endif //FILESTAT_CONSTANTS_H

@@ -5,9 +5,9 @@
 #include "params_parser.h"
 
 
-struct AppConfig app_config_from_args(int argc, char **argv) {
+AppConfig app_config_from_args(int argc, char **argv) {
     /* get clean app configuration initialized to default values */
-    struct AppConfig currentConfiguration = init_app_config();
+    AppConfig currentConfiguration = init_app_config();
     /* mark all the options got as from cli inside the configuration */
     parse_options(argc, argv, &currentConfiguration);
     /* get the input/output files. if none -> defaults are used */

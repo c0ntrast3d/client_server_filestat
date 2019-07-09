@@ -177,32 +177,113 @@ src/entites/app_config.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/app_config.c.s
 .PHONY : src/entites/app_config.c.s
 
-src/entites/options.o: src/entites/options.c.o
+src/entites/cli_options.o: src/entites/cli_options.c.o
 
-.PHONY : src/entites/options.o
+.PHONY : src/entites/cli_options.o
 
 # target to build an object file
-src/entites/options.c.o:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/options.c.o
-.PHONY : src/entites/options.c.o
+src/entites/cli_options.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/cli_options.c.o
+.PHONY : src/entites/cli_options.c.o
 
-src/entites/options.i: src/entites/options.c.i
+src/entites/cli_options.i: src/entites/cli_options.c.i
 
-.PHONY : src/entites/options.i
+.PHONY : src/entites/cli_options.i
 
 # target to preprocess a source file
-src/entites/options.c.i:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/options.c.i
-.PHONY : src/entites/options.c.i
+src/entites/cli_options.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/cli_options.c.i
+.PHONY : src/entites/cli_options.c.i
 
-src/entites/options.s: src/entites/options.c.s
+src/entites/cli_options.s: src/entites/cli_options.c.s
 
-.PHONY : src/entites/options.s
+.PHONY : src/entites/cli_options.s
 
 # target to generate assembly for a file
-src/entites/options.c.s:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/options.c.s
-.PHONY : src/entites/options.c.s
+src/entites/cli_options.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/cli_options.c.s
+.PHONY : src/entites/cli_options.c.s
+
+src/entites/file_info.o: src/entites/file_info.c.o
+
+.PHONY : src/entites/file_info.o
+
+# target to build an object file
+src/entites/file_info.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/file_info.c.o
+.PHONY : src/entites/file_info.c.o
+
+src/entites/file_info.i: src/entites/file_info.c.i
+
+.PHONY : src/entites/file_info.i
+
+# target to preprocess a source file
+src/entites/file_info.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/file_info.c.i
+.PHONY : src/entites/file_info.c.i
+
+src/entites/file_info.s: src/entites/file_info.c.s
+
+.PHONY : src/entites/file_info.s
+
+# target to generate assembly for a file
+src/entites/file_info.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/file_info.c.s
+.PHONY : src/entites/file_info.c.s
+
+src/entites/input_parameters.o: src/entites/input_parameters.c.o
+
+.PHONY : src/entites/input_parameters.o
+
+# target to build an object file
+src/entites/input_parameters.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/input_parameters.c.o
+.PHONY : src/entites/input_parameters.c.o
+
+src/entites/input_parameters.i: src/entites/input_parameters.c.i
+
+.PHONY : src/entites/input_parameters.i
+
+# target to preprocess a source file
+src/entites/input_parameters.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/input_parameters.c.i
+.PHONY : src/entites/input_parameters.c.i
+
+src/entites/input_parameters.s: src/entites/input_parameters.c.s
+
+.PHONY : src/entites/input_parameters.s
+
+# target to generate assembly for a file
+src/entites/input_parameters.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/input_parameters.c.s
+.PHONY : src/entites/input_parameters.c.s
+
+src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
+
+.PHONY : src/handlers/stats_producer.o
+
+# target to build an object file
+src/handlers/stats_producer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o
+.PHONY : src/handlers/stats_producer.c.o
+
+src/handlers/stats_producer.i: src/handlers/stats_producer.c.i
+
+.PHONY : src/handlers/stats_producer.i
+
+# target to preprocess a source file
+src/handlers/stats_producer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/stats_producer.c.i
+.PHONY : src/handlers/stats_producer.c.i
+
+src/handlers/stats_producer.s: src/handlers/stats_producer.c.s
+
+.PHONY : src/handlers/stats_producer.s
+
+# target to generate assembly for a file
+src/handlers/stats_producer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/stats_producer.c.s
+.PHONY : src/handlers/stats_producer.c.s
 
 src/io/help_printer.o: src/io/help_printer.c.o
 
@@ -230,6 +311,33 @@ src/io/help_printer.s: src/io/help_printer.c.s
 src/io/help_printer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/help_printer.c.s
 .PHONY : src/io/help_printer.c.s
+
+src/io/parameters_reader.o: src/io/parameters_reader.c.o
+
+.PHONY : src/io/parameters_reader.o
+
+# target to build an object file
+src/io/parameters_reader.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/parameters_reader.c.o
+.PHONY : src/io/parameters_reader.c.o
+
+src/io/parameters_reader.i: src/io/parameters_reader.c.i
+
+.PHONY : src/io/parameters_reader.i
+
+# target to preprocess a source file
+src/io/parameters_reader.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/parameters_reader.c.i
+.PHONY : src/io/parameters_reader.c.i
+
+src/io/parameters_reader.s: src/io/parameters_reader.c.s
+
+.PHONY : src/io/parameters_reader.s
+
+# target to generate assembly for a file
+src/io/parameters_reader.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/parameters_reader.c.s
+.PHONY : src/io/parameters_reader.c.s
 
 src/main.o: src/main.c.o
 
@@ -284,6 +392,33 @@ src/utils/app_config_producer.s: src/utils/app_config_producer.c.s
 src/utils/app_config_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s
 .PHONY : src/utils/app_config_producer.c.s
+
+src/utils/file_utils.o: src/utils/file_utils.c.o
+
+.PHONY : src/utils/file_utils.o
+
+# target to build an object file
+src/utils/file_utils.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/file_utils.c.o
+.PHONY : src/utils/file_utils.c.o
+
+src/utils/file_utils.i: src/utils/file_utils.c.i
+
+.PHONY : src/utils/file_utils.i
+
+# target to preprocess a source file
+src/utils/file_utils.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/file_utils.c.i
+.PHONY : src/utils/file_utils.c.i
+
+src/utils/file_utils.s: src/utils/file_utils.c.s
+
+.PHONY : src/utils/file_utils.s
+
+# target to generate assembly for a file
+src/utils/file_utils.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/file_utils.c.s
+.PHONY : src/utils/file_utils.c.s
 
 src/utils/options_parser.o: src/utils/options_parser.c.o
 
@@ -354,18 +489,33 @@ help:
 	@echo "... src/entites/app_config.o"
 	@echo "... src/entites/app_config.i"
 	@echo "... src/entites/app_config.s"
-	@echo "... src/entites/options.o"
-	@echo "... src/entites/options.i"
-	@echo "... src/entites/options.s"
+	@echo "... src/entites/cli_options.o"
+	@echo "... src/entites/cli_options.i"
+	@echo "... src/entites/cli_options.s"
+	@echo "... src/entites/file_info.o"
+	@echo "... src/entites/file_info.i"
+	@echo "... src/entites/file_info.s"
+	@echo "... src/entites/input_parameters.o"
+	@echo "... src/entites/input_parameters.i"
+	@echo "... src/entites/input_parameters.s"
+	@echo "... src/handlers/stats_producer.o"
+	@echo "... src/handlers/stats_producer.i"
+	@echo "... src/handlers/stats_producer.s"
 	@echo "... src/io/help_printer.o"
 	@echo "... src/io/help_printer.i"
 	@echo "... src/io/help_printer.s"
+	@echo "... src/io/parameters_reader.o"
+	@echo "... src/io/parameters_reader.i"
+	@echo "... src/io/parameters_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/utils/app_config_producer.o"
 	@echo "... src/utils/app_config_producer.i"
 	@echo "... src/utils/app_config_producer.s"
+	@echo "... src/utils/file_utils.o"
+	@echo "... src/utils/file_utils.i"
+	@echo "... src/utils/file_utils.s"
 	@echo "... src/utils/options_parser.o"
 	@echo "... src/utils/options_parser.i"
 	@echo "... src/utils/options_parser.s"
