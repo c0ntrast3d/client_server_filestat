@@ -1,7 +1,7 @@
-The system is: Darwin - 18.6.0 - x86_64
+The system is: Linux - 5.1.16-795.native - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
-Build flags: 
+Compiler: /usr/bin/gcc 
+Build flags: -g;-O3;-feliminate-unused-debug-types;;-pipe;-Wall;-Wp,-D_FORTIFY_SOURCE=2;-fexceptions;-fstack-protector;--param=ssp-buffer-size=32;-Wformat;-Wformat-security;-m64;;-fasynchronous-unwind-tables;-Wp,-D_REENTRANT;-ftree-loop-distribute-patterns;-Wl,-z;-Wl,now;-Wl,-z;-Wl,relro;-fno-semantic-interposition;-ffat-lto-objects;;-fno-signed-zeros;-fno-trapping-math;;-fassociative-math;-Wl,-sort-common;-Wl,--enable-new-dtags;-mtune=skylake
 Id flags:  
 
 The output was:
@@ -10,147 +10,214 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_04bda/fast 
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_04bda.dir/build.make CMakeFiles/cmTC_04bda.dir/build
-Building C object CMakeFiles/cmTC_04bda.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_04bda.dir/testCCompiler.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_04bda
-"/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_04bda.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_04bda.dir/testCCompiler.c.o  -o cmTC_04bda 
+Run Build Command(s):/usr/bin/gmake cmTC_27480/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_27480.dir/build.make CMakeFiles/cmTC_27480.dir/build
+gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27480.dir/testCCompiler.c.o
+/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -o CMakeFiles/cmTC_27480.dir/testCCompiler.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_27480
+/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27480.dir/link.txt --verbose=1
+/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake     CMakeFiles/cmTC_27480.dir/testCCompiler.c.o  -o cmTC_27480 
+gmake[1]: Leaving directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a1930/fast 
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a1930.dir/build.make CMakeFiles/cmTC_a1930.dir/build
-Building C object CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o   -c "/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c"
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.6.0
+Run Build Command(s):/usr/bin/gmake cmTC_492cb/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_492cb.dir/build.make CMakeFiles/cmTC_492cb.dir/build
+gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -v -o CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o   -c /home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+Target: x86_64-generic-linux
+Configured with: ../gcc-9.1.0/configure --prefix=/usr --with-pkgversion='Clear Linux OS for Intel Architecture' --libdir=/usr/lib64 --enable-libstdcxx-pch --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-gnu-indirect-function --disable-vtable-verify --enable-threads=posix --enable-__cxa_atexit --enable-plugin --enable-ld=default --enable-clocale=gnu --disable-multiarch --enable-multilib --enable-lto --disable-werror --enable-linker-build-id --build=x86_64-generic-linux --target=x86_64-generic-linux --enable-languages=c,c++,fortran,go --enable-bootstrap --with-ppl=yes --with-isl --includedir=/usr/include --exec-prefix=/usr --with-glibc-version=2.19 --disable-libunwind-exceptions --with-gnu-ld --with-tune=haswell --with-arch=westmere --enable-cet --disable-libmpx --with-gcc-major-version-only --enable-default-pie
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o -x c /Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c
-clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.6.0
-ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"
-ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+gcc version 9.1.1 20190710 gcc-9-branch@273320 (Clear Linux OS for Intel Architecture) 
+COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o' '-c' '-march=westmere'
+ /usr/lib64/gcc/x86_64-generic-linux/9/cc1 -quiet -v -D_FORTIFY_SOURCE=2 -D_REENTRANT /home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m64 -mtune=skylake -march=westmere -auxbase-strip CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o -g -O3 -Wall -Wformat=1 -Wformat-security -version -feliminate-unused-debug-types -fexceptions -fstack-protector -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math --param ssp-buffer-size=32 -o - |
+ as -v --64 -o CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o
+GNU C17 (Clear Linux OS for Intel Architecture) version 9.1.1 20190710 gcc-9-branch@273320 (x86_64-generic-linux)
+	compiled by GNU C version 9.1.1 20190710 gcc-9-branch@273320, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib64/gcc/x86_64-generic-linux/9/../../../../x86_64-generic-linux/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
- /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
- /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+ /usr/lib64/gcc/x86_64-generic-linux/9/include
+ /usr/lib64/gcc/x86_64-generic-linux/9/include-fixed
+ /usr/include
 End of search list.
-Linking C executable cmTC_a1930
-"/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a1930.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o  -o cmTC_a1930 
-Apple LLVM version 10.0.1 (clang-1001.0.46.4)
-Target: x86_64-apple-darwin18.6.0
+GNU C17 (Clear Linux OS for Intel Architecture) version 9.1.1 20190710 gcc-9-branch@273320 (x86_64-generic-linux)
+	compiled by GNU C version 9.1.1 20190710 gcc-9-branch@273320, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.16.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU assembler version 2.32.0 (x86_64-generic-linux) using BFD version (GNU Binutils) 2.32.0.20190203
+Compiler executable checksum: c4646ad9772b90892449ebf07b2c8db0
+COMPILER_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o' '-c' '-march=westmere'
+Linking C executable cmTC_492cb
+/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_492cb.dir/link.txt --verbose=1
+/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -v CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o  -o cmTC_492cb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-generic-linux/9/lto-wrapper
+Target: x86_64-generic-linux
+Configured with: ../gcc-9.1.0/configure --prefix=/usr --with-pkgversion='Clear Linux OS for Intel Architecture' --libdir=/usr/lib64 --enable-libstdcxx-pch --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-gnu-indirect-function --disable-vtable-verify --enable-threads=posix --enable-__cxa_atexit --enable-plugin --enable-ld=default --enable-clocale=gnu --disable-multiarch --enable-multilib --enable-lto --disable-werror --enable-linker-build-id --build=x86_64-generic-linux --target=x86_64-generic-linux --enable-languages=c,c++,fortran,go --enable-bootstrap --with-ppl=yes --with-isl --includedir=/usr/include --exec-prefix=/usr --with-glibc-version=2.19 --disable-libunwind-exceptions --with-gnu-ld --with-tune=haswell --with-arch=westmere --enable-cet --disable-libmpx --with-gcc-major-version-only --enable-default-pie
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_a1930 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-450.3
-BUILD 18:45:16 Apr  4 2019
-configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
-Library search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
-Framework search paths:
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+gcc version 9.1.1 20190710 gcc-9-branch@273320 (Clear Linux OS for Intel Architecture) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'cmTC_492cb' '-march=westmere'
+ /usr/lib64/gcc/x86_64-generic-linux/9/collect2 -plugin /usr/lib64/gcc/x86_64-generic-linux/9/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-generic-linux/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJEQ7IE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -o cmTC_492cb /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-generic-linux/9/crtbeginS.o -L/usr/lib64/gcc/x86_64-generic-linux/9 -L/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-generic-linux/9/../../.. -z now -z relro -sort-common --enable-new-dtags CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-generic-linux/9/crtendS.o /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'cmTC_492cb' '-march=westmere'
+gmake[1]: Leaving directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
-    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+    add: [/usr/lib64/gcc/x86_64-generic-linux/9/include]
+    add: [/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed]
+    add: [/usr/include]
   end of search list found
-  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
-  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
-  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  collapse include dir [/usr/lib64/gcc/x86_64-generic-linux/9/include] ==> [/usr/lib64/gcc/x86_64-generic-linux/9/include]
+  collapse include dir [/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed] ==> [/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib64/gcc/x86_64-generic-linux/9/include;/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a1930/fast ]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a1930.dir/build.make CMakeFiles/cmTC_a1930.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o   -c "/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c"]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.6.0]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_492cb/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_492cb.dir/build.make CMakeFiles/cmTC_492cb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -v -o CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o   -c /home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [Target: x86_64-generic-linux]
+  ignore line: [Configured with: ../gcc-9.1.0/configure --prefix=/usr --with-pkgversion='Clear Linux OS for Intel Architecture' --libdir=/usr/lib64 --enable-libstdcxx-pch --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-gnu-indirect-function --disable-vtable-verify --enable-threads=posix --enable-__cxa_atexit --enable-plugin --enable-ld=default --enable-clocale=gnu --disable-multiarch --enable-multilib --enable-lto --disable-werror --enable-linker-build-id --build=x86_64-generic-linux --target=x86_64-generic-linux --enable-languages=c,c++,fortran,go --enable-bootstrap --with-ppl=yes --with-isl --includedir=/usr/include --exec-prefix=/usr --with-glibc-version=2.19 --disable-libunwind-exceptions --with-gnu-ld --with-tune=haswell --with-arch=westmere --enable-cet --disable-libmpx --with-gcc-major-version-only --enable-default-pie]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
-  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.14.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.14 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.14.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o -x c /Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
-  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.4) default target x86_64-apple-darwin18.6.0]
-  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"]
-  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [gcc version 9.1.1 20190710 gcc-9-branch@273320 (Clear Linux OS for Intel Architecture) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o' '-c' '-march=westmere']
+  ignore line: [ /usr/lib64/gcc/x86_64-generic-linux/9/cc1 -quiet -v -D_FORTIFY_SOURCE=2 -D_REENTRANT /home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m64 -mtune=skylake -march=westmere -auxbase-strip CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o -g -O3 -Wall -Wformat=1 -Wformat-security -version -feliminate-unused-debug-types -fexceptions -fstack-protector -fasynchronous-unwind-tables -ftree-loop-distribute-patterns -fno-semantic-interposition -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math --param ssp-buffer-size=32 -o - |]
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU C17 (Clear Linux OS for Intel Architecture) version 9.1.1 20190710 gcc-9-branch@273320 (x86_64-generic-linux)]
+  ignore line: [	compiled by GNU C version 9.1.1 20190710 gcc-9-branch@273320, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib64/gcc/x86_64-generic-linux/9/../../../../x86_64-generic-linux/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
-  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
-  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [ /usr/lib64/gcc/x86_64-generic-linux/9/include]
+  ignore line: [ /usr/lib64/gcc/x86_64-generic-linux/9/include-fixed]
+  ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_a1930]
-  ignore line: ["/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a1930.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o  -o cmTC_a1930 ]
-  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
-  ignore line: [Target: x86_64-apple-darwin18.6.0]
+  ignore line: [GNU C17 (Clear Linux OS for Intel Architecture) version 9.1.1 20190710 gcc-9-branch@273320 (x86_64-generic-linux)]
+  ignore line: [	compiled by GNU C version 9.1.1 20190710 gcc-9-branch@273320, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.16.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [GNU assembler version 2.32.0 (x86_64-generic-linux) using BFD version (GNU Binutils) 2.32.0.20190203]
+  ignore line: [Compiler executable checksum: c4646ad9772b90892449ebf07b2c8db0]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o' '-c' '-march=westmere']
+  ignore line: [Linking C executable cmTC_492cb]
+  ignore line: [/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_492cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -v CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o  -o cmTC_492cb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-generic-linux/9/lto-wrapper]
+  ignore line: [Target: x86_64-generic-linux]
+  ignore line: [Configured with: ../gcc-9.1.0/configure --prefix=/usr --with-pkgversion='Clear Linux OS for Intel Architecture' --libdir=/usr/lib64 --enable-libstdcxx-pch --libexecdir=/usr/lib64 --with-system-zlib --enable-shared --enable-gnu-indirect-function --disable-vtable-verify --enable-threads=posix --enable-__cxa_atexit --enable-plugin --enable-ld=default --enable-clocale=gnu --disable-multiarch --enable-multilib --enable-lto --disable-werror --enable-linker-build-id --build=x86_64-generic-linux --target=x86_64-generic-linux --enable-languages=c,c++,fortran,go --enable-bootstrap --with-ppl=yes --with-isl --includedir=/usr/include --exec-prefix=/usr --with-glibc-version=2.19 --disable-libunwind-exceptions --with-gnu-ld --with-tune=haswell --with-arch=westmere --enable-cet --disable-libmpx --with-gcc-major-version-only --enable-default-pie]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -o cmTC_a1930 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-lto_library] ==> ignore, skip following value
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.14.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+  ignore line: [gcc version 9.1.1 20190710 gcc-9-branch@273320 (Clear Linux OS for Intel Architecture) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/:/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-generic-linux/9/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-generic-linux/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O3' '-feliminate-unused-debug-types' '-pipe' '-Wall' '-fexceptions' '-fstack-protector' '--param' 'ssp-buffer-size=32' '-Wformat=1' '-Wformat-security' '-m64' '-fasynchronous-unwind-tables' '-ftree-loop-distribute-patterns' '-fno-semantic-interposition' '-ffat-lto-objects' '-fno-signed-zeros' '-fno-trapping-math' '-fassociative-math' '-mtune=skylake' '-v' '-o' 'cmTC_492cb' '-march=westmere']
+  link line: [ /usr/lib64/gcc/x86_64-generic-linux/9/collect2 -plugin /usr/lib64/gcc/x86_64-generic-linux/9/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-generic-linux/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJEQ7IE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -o cmTC_492cb /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/Scrt1.o /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-generic-linux/9/crtbeginS.o -L/usr/lib64/gcc/x86_64-generic-linux/9 -L/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-generic-linux/9/../../.. -z now -z relro -sort-common --enable-new-dtags CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib64/gcc/x86_64-generic-linux/9/crtendS.o /usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib64/gcc/x86_64-generic-linux/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJEQ7IE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a1930] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_a1930.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
-  implicit libs: []
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+    arg [cmTC_492cb] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/Scrt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-generic-linux/9] ==> dir [/usr/lib64/gcc/x86_64-generic-linux/9]
+    arg [-L/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-generic-linux/9/../../..] ==> dir [/usr/lib64/gcc/x86_64-generic-linux/9/../../..]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-sort-common] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [CMakeFiles/cmTC_492cb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/crtendS.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/gcc/x86_64-generic-linux/9] ==> [/usr/lib64/gcc/x86_64-generic-linux/9]
+  collapse library dir [/usr/lib64/gcc/x86_64-generic-linux/9/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-generic-linux/9/../../..] ==> [/usr/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib64/gcc/x86_64-generic-linux/9;/usr/lib64;/lib64]
+  implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c108b/fast 
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c108b.dir/build.make CMakeFiles/cmTC_c108b.dir/build
-Building C object CMakeFiles/cmTC_c108b.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_c108b.dir/feature_tests.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c108b
-"/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c108b.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c108b.dir/feature_tests.c.o  -o cmTC_c108b 
+Run Build Command(s):/usr/bin/gmake cmTC_8853e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_8853e.dir/build.make CMakeFiles/cmTC_8853e.dir/build
+gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8853e.dir/feature_tests.c.o
+/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -std=c11 -o CMakeFiles/cmTC_8853e.dir/feature_tests.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8853e
+/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8853e.dir/link.txt --verbose=1
+/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake     CMakeFiles/cmTC_8853e.dir/feature_tests.c.o  -o cmTC_8853e 
+gmake[1]: Leaving directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -160,15 +227,17 @@ Linking C executable cmTC_c108b
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_92faf/fast 
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92faf.dir/build.make CMakeFiles/cmTC_92faf.dir/build
-Building C object CMakeFiles/cmTC_92faf.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_92faf.dir/feature_tests.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_92faf
-"/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_92faf.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92faf.dir/feature_tests.c.o  -o cmTC_92faf 
+Run Build Command(s):/usr/bin/gmake cmTC_f5f7b/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_f5f7b.dir/build.make CMakeFiles/cmTC_f5f7b.dir/build
+gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5f7b.dir/feature_tests.c.o
+/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -std=c99 -o CMakeFiles/cmTC_f5f7b.dir/feature_tests.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f5f7b
+/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5f7b.dir/link.txt --verbose=1
+/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake     CMakeFiles/cmTC_f5f7b.dir/feature_tests.c.o  -o cmTC_f5f7b 
+gmake[1]: Leaving directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,15 +247,17 @@ Linking C executable cmTC_92faf
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a469c/fast 
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a469c.dir/build.make CMakeFiles/cmTC_a469c.dir/build
-Building C object CMakeFiles/cmTC_a469c.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_a469c.dir/feature_tests.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a469c
-"/Users/c0ntrast3d/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a469c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a469c.dir/feature_tests.c.o  -o cmTC_a469c 
+Run Build Command(s):/usr/bin/gmake cmTC_e2f6e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_e2f6e.dir/build.make CMakeFiles/cmTC_e2f6e.dir/build
+gmake[1]: Entering directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2f6e.dir/feature_tests.c.o
+/usr/bin/gcc   -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake    -std=c90 -o CMakeFiles/cmTC_e2f6e.dir/feature_tests.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e2f6e
+/home/c0ntrast3d/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f6e.dir/link.txt --verbose=1
+/usr/bin/gcc -g -O3 -feliminate-unused-debug-types  -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=32 -Wformat -Wformat-security -m64  -fasynchronous-unwind-tables -Wp,-D_REENTRANT -ftree-loop-distribute-patterns -Wl,-z -Wl,now -Wl,-z -Wl,relro -fno-semantic-interposition -ffat-lto-objects  -fno-signed-zeros -fno-trapping-math  -fassociative-math -Wl,-sort-common -Wl,--enable-new-dtags -mtune=skylake     CMakeFiles/cmTC_e2f6e.dir/feature_tests.c.o  -o cmTC_e2f6e 
+gmake[1]: Leaving directory '/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes

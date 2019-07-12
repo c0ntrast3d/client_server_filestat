@@ -8,167 +8,163 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug"/>
+				<Option working_dir="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug"/>
+				<Option working_dir="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filestat">
-				<Option output="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/filestat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug"/>
+				<Option output="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/filestat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib64/gcc/x86_64-generic-linux/9/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 filestat"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 filestat"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="filestat/fast">
-				<Option output="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/filestat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug"/>
+				<Option output="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/filestat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib64/gcc/x86_64-generic-linux/9/include"/>
+					<Add directory="/usr/lib64/gcc/x86_64-generic-linux/9/include-fixed"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 filestat/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 filestat/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/controller/controller.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/controller/controller.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/app_config.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/app_config.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/cli_options.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/cli_options.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/cli_options.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/cli_options.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/constants.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/constants.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/file_info.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/file_info.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/input_parameters.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/input_parameters.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/previous_output.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/previous_output.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/handlers/stats_producer.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/handlers/stats_producer.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/help_printer.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/help_printer.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/help_printer.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/help_printer.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/output_reader.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/output_reader.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/parameters_reader.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/parameters_reader.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/main.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/main.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/app_config_producer.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/app_config_producer.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/file_utils.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/file_utils.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/options_parser.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/options_parser.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/options_parser.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.c">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/params_parser.c">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/utils/params_parser.h">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/params_parser.h">
 			<Option target="filestat"/>
 		</Unit>
-		<Unit filename="/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/CMakeLists.txt">
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

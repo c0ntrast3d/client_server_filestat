@@ -8,31 +8,30 @@
 #include <sys/stat.h>
 
 struct FileInfo {
-    time_t date;
-    off_t fileSize;
-    mode_t modes;
-    time_t lastAccessed;
-    time_t lastModified;
-    time_t lastModesModified;
-    nlink_t linksToFile;
-    uid_t userId;
-    gid_t groupId;
-    struct FileInfo *next;
+  time_t date;
+  off_t fileSize;
+  mode_t modes;
+  time_t lastAccessed;
+  time_t lastModified;
+  time_t lastModesModified;
+  nlink_t linksToFile;
+  uid_t userId;
+  gid_t groupId;
+  struct FileInfo *next;
 };
 
 typedef struct FileInfo *FileInfoList;
 
-FileInfoList create_file_infos();
+FileInfoList create_file_infos ();
 
-void add_file_info(FileInfoList head, struct FileInfo node);
+void add_file_info (FileInfoList head, struct FileInfo node);
 
-void print_infos(FileInfoList head);
+void print_infos (FileInfoList head);
 
-void print_info(struct FileInfo *info);
+void print_info (struct FileInfo *info);
 
-struct FileInfo try_parse_info(char *line);
+struct FileInfo try_parse_info (char *line);
 
-struct FileInfo copy_info(struct stat *stats);
-
+struct FileInfo info_from_stat (struct stat *stats);
 
 #endif //FILESTAT_FILE_INFO_H

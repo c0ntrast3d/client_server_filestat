@@ -1,3 +1,3 @@
-/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles/filestat.dir
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/edit_cache.dir
