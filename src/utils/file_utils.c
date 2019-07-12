@@ -26,3 +26,17 @@ FILE *try_open_file(char *path) {
         return NULL;
     }
 }
+
+FILE *try_open_or_create_file(char *path) {
+    FILE *file;
+    file = fopen(path, "rb+");
+    if (file != NULL) {
+        return file;
+    } else {
+        file = fopen(path, "wb");
+        if (file == NULL) {
+            perror(path);
+            return NULL;
+        }
+    }
+}

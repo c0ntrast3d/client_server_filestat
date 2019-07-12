@@ -7,7 +7,7 @@ FileInfoList create_file_infos() {
     return temp;
 }
 
-FileInfoList add_file_info(FileInfoList head, struct FileInfo node) {
+void add_file_info(FileInfoList head, struct FileInfo node) {
     FileInfoList temp, p;
     temp = create_file_infos();
     temp->date = node.date;
@@ -29,7 +29,6 @@ FileInfoList add_file_info(FileInfoList head, struct FileInfo node) {
         }
         p->next = temp;
     }
-    return head;
 }
 
 static long int fileModes[10] = {
@@ -56,9 +55,9 @@ static char *stringify_modes(mode_t modes) {
     return template;
 }
 
-static void print_info(struct FileInfo *info) {
+void print_info(struct FileInfo *info) {
     puts("");
-    printf("Info Produced:           %s", ctime(&info->date));
+    //printf("Info Produced:           %s", ctime(&info->date));
     printf("File Size:               %lld \n", info->fileSize);
     printf("File Modes:              %s \n", stringify_modes(info->modes));
     printf("Last Access Time:        %s", ctime(&info->lastAccessed));
@@ -86,10 +85,8 @@ struct FileInfo copy_info(struct stat *stats) {
     struct FileInfo temp;
     time_t now;
     time(&now);
-    printf("\nCOPYING STATS : %llu\n", stats->st_size);
     temp.date = now;
     temp.fileSize = stats->st_size;
-    printf("COPIED STATS : %llu", stats->st_size);
     temp.modes = stats->st_mode;
     temp.lastAccessed = stats->st_atime;
     temp.lastModified = stats->st_ctime;
@@ -100,4 +97,24 @@ struct FileInfo copy_info(struct stat *stats) {
     temp.next = NULL;
 
     return temp;
+}
+
+struct FileInfo try_parse_info(char *line) {
+    struct FileInfo tmp = {};
+    if (sscanf(line, "%ld %d %d %ld %hu %ld %ld %ld %hu\n",
+               &tmp.date,
+               &tmp.userId,
+               &tmp.groupId,
+               &tmp.fileSize,
+               &tmp.modes,
+               &tmp.lastAccessed,
+               &tmp.lastModified,
+               &tmp.lastModesModified,
+               &tmp.linksToFile
+    ) <= 0) {
+        return tmp;
+    }
+/*    printf("\nOUTPUT_READER :: \n");
+    print_info(&tmp);*/
+    return tmp;
 }

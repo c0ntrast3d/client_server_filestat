@@ -34,10 +34,10 @@ void print_parameters(InputParameters head) {
     }
     InputParameters current = head;
     while (current != NULL) {
-        printf("Printing parameter: \npath: %s\nrecursive : %d\nfollowLink : %d\n",
+/*        printf("Printing parameter: \npath: %s\nrecursive : %d\nfollowLink : %d\n",
                current->path,
                current->recursive,
-               current->followLink);
+               current->followLink);*/
         current = current->next;
     }
 }

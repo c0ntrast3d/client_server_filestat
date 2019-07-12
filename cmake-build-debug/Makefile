@@ -258,6 +258,33 @@ src/entites/input_parameters.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/input_parameters.c.s
 .PHONY : src/entites/input_parameters.c.s
 
+src/entites/previous_output.o: src/entites/previous_output.c.o
+
+.PHONY : src/entites/previous_output.o
+
+# target to build an object file
+src/entites/previous_output.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/previous_output.c.o
+.PHONY : src/entites/previous_output.c.o
+
+src/entites/previous_output.i: src/entites/previous_output.c.i
+
+.PHONY : src/entites/previous_output.i
+
+# target to preprocess a source file
+src/entites/previous_output.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/previous_output.c.i
+.PHONY : src/entites/previous_output.c.i
+
+src/entites/previous_output.s: src/entites/previous_output.c.s
+
+.PHONY : src/entites/previous_output.s
+
+# target to generate assembly for a file
+src/entites/previous_output.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/previous_output.c.s
+.PHONY : src/entites/previous_output.c.s
+
 src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
 
 .PHONY : src/handlers/stats_producer.o
@@ -311,6 +338,33 @@ src/io/help_printer.s: src/io/help_printer.c.s
 src/io/help_printer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/help_printer.c.s
 .PHONY : src/io/help_printer.c.s
+
+src/io/output_reader.o: src/io/output_reader.c.o
+
+.PHONY : src/io/output_reader.o
+
+# target to build an object file
+src/io/output_reader.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_reader.c.o
+.PHONY : src/io/output_reader.c.o
+
+src/io/output_reader.i: src/io/output_reader.c.i
+
+.PHONY : src/io/output_reader.i
+
+# target to preprocess a source file
+src/io/output_reader.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_reader.c.i
+.PHONY : src/io/output_reader.c.i
+
+src/io/output_reader.s: src/io/output_reader.c.s
+
+.PHONY : src/io/output_reader.s
+
+# target to generate assembly for a file
+src/io/output_reader.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_reader.c.s
+.PHONY : src/io/output_reader.c.s
 
 src/io/parameters_reader.o: src/io/parameters_reader.c.o
 
@@ -498,12 +552,18 @@ help:
 	@echo "... src/entites/input_parameters.o"
 	@echo "... src/entites/input_parameters.i"
 	@echo "... src/entites/input_parameters.s"
+	@echo "... src/entites/previous_output.o"
+	@echo "... src/entites/previous_output.i"
+	@echo "... src/entites/previous_output.s"
 	@echo "... src/handlers/stats_producer.o"
 	@echo "... src/handlers/stats_producer.i"
 	@echo "... src/handlers/stats_producer.s"
 	@echo "... src/io/help_printer.o"
 	@echo "... src/io/help_printer.i"
 	@echo "... src/io/help_printer.s"
+	@echo "... src/io/output_reader.o"
+	@echo "... src/io/output_reader.i"
+	@echo "... src/io/output_reader.s"
 	@echo "... src/io/parameters_reader.o"
 	@echo "... src/io/parameters_reader.i"
 	@echo "... src/io/parameters_reader.s"

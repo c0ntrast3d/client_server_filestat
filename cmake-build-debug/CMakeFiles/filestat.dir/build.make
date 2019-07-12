@@ -226,6 +226,32 @@ CMakeFiles/filestat.dir/src/handlers/stats_producer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/stats_producer.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/handlers/stats_producer.c -o CMakeFiles/filestat.dir/src/handlers/stats_producer.c.s
 
+CMakeFiles/filestat.dir/src/io/output_reader.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/io/output_reader.c.o: ../src/io/output_reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/filestat.dir/src/io/output_reader.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/io/output_reader.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/output_reader.c
+
+CMakeFiles/filestat.dir/src/io/output_reader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/io/output_reader.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/output_reader.c > CMakeFiles/filestat.dir/src/io/output_reader.c.i
+
+CMakeFiles/filestat.dir/src/io/output_reader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/io/output_reader.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/io/output_reader.c -o CMakeFiles/filestat.dir/src/io/output_reader.c.s
+
+CMakeFiles/filestat.dir/src/entites/previous_output.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/entites/previous_output.c.o: ../src/entites/previous_output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/filestat.dir/src/entites/previous_output.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/entites/previous_output.c.o   -c /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/previous_output.c
+
+CMakeFiles/filestat.dir/src/entites/previous_output.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/entites/previous_output.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/previous_output.c > CMakeFiles/filestat.dir/src/entites/previous_output.c.i
+
+CMakeFiles/filestat.dir/src/entites/previous_output.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/entites/previous_output.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/c0ntrast3d/Documents/unicam/os_lab/filestat/src/entites/previous_output.c -o CMakeFiles/filestat.dir/src/entites/previous_output.c.s
+
 # Object files for target filestat
 filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/main.c.o" \
@@ -240,7 +266,9 @@ filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/utils/file_utils.c.o" \
 "CMakeFiles/filestat.dir/src/io/parameters_reader.c.o" \
 "CMakeFiles/filestat.dir/src/entites/file_info.c.o" \
-"CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o"
+"CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o" \
+"CMakeFiles/filestat.dir/src/io/output_reader.c.o" \
+"CMakeFiles/filestat.dir/src/entites/previous_output.c.o"
 
 # External object files for target filestat
 filestat_EXTERNAL_OBJECTS =
@@ -258,9 +286,11 @@ filestat: CMakeFiles/filestat.dir/src/utils/file_utils.c.o
 filestat: CMakeFiles/filestat.dir/src/io/parameters_reader.c.o
 filestat: CMakeFiles/filestat.dir/src/entites/file_info.c.o
 filestat: CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o
+filestat: CMakeFiles/filestat.dir/src/io/output_reader.c.o
+filestat: CMakeFiles/filestat.dir/src/entites/previous_output.c.o
 filestat: CMakeFiles/filestat.dir/build.make
 filestat: CMakeFiles/filestat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C executable filestat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/c0ntrast3d/Documents/unicam/os_lab/filestat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable filestat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filestat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

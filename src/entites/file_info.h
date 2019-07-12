@@ -24,9 +24,13 @@ typedef struct FileInfo *FileInfoList;
 
 FileInfoList create_file_infos();
 
-FileInfoList add_file_info(FileInfoList head, struct FileInfo node);
+void add_file_info(FileInfoList head, struct FileInfo node);
 
 void print_infos(FileInfoList head);
+
+void print_info(struct FileInfo *info);
+
+struct FileInfo try_parse_info(char *line);
 
 struct FileInfo copy_info(struct stat *stats);
 

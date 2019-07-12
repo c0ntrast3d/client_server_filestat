@@ -20,7 +20,7 @@ typedef struct AppConfig_t {
     int lengthMax;
     int noscan;
     char *inputFileName;
-    const char *outputFileName;
+    char *outputFileName;
     int optionsCount;
 } AppConfig;
 
