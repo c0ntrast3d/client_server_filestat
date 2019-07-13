@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/main.c.o"
   "CMakeFiles/filestat.dir/src/entites/cli_options.c.o"
   "CMakeFiles/filestat.dir/src/controller/controller.c.o"
-  "CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o"
   "CMakeFiles/filestat.dir/src/io/help_printer.c.o"
   "CMakeFiles/filestat.dir/src/entites/app_config.c.o"
   "CMakeFiles/filestat.dir/src/utils/options_parser.c.o"
@@ -14,6 +14,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o"
   "CMakeFiles/filestat.dir/src/io/output_reader.c.o"
   "CMakeFiles/filestat.dir/src/entites/previous_output.c.o"
+  "CMakeFiles/filestat.dir/src/entites/execution_stats.c.o"
+  "CMakeFiles/filestat.dir/src/io/output_writer.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o"
   "filestat.pdb"
   "filestat"
 )

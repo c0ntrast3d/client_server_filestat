@@ -96,18 +96,18 @@ CMakeFiles/filestat.dir/src/controller/controller.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/controller/controller.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.c -o CMakeFiles/filestat.dir/src/controller/controller.c.s
 
-CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o: CMakeFiles/filestat.dir/flags.make
-CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o: ../src/utils/app_config_producer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.c
+CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o: ../src/handlers/app_config_producer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.c
 
-CMakeFiles/filestat.dir/src/utils/app_config_producer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/utils/app_config_producer.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.c > CMakeFiles/filestat.dir/src/utils/app_config_producer.c.i
+CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.c > CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.i
 
-CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.c -o CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s
+CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.c -o CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.s
 
 CMakeFiles/filestat.dir/src/io/help_printer.c.o: CMakeFiles/filestat.dir/flags.make
 CMakeFiles/filestat.dir/src/io/help_printer.c.o: ../src/io/help_printer.c
@@ -252,12 +252,51 @@ CMakeFiles/filestat.dir/src/entites/previous_output.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/entites/previous_output.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.c -o CMakeFiles/filestat.dir/src/entites/previous_output.c.s
 
+CMakeFiles/filestat.dir/src/entites/execution_stats.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/entites/execution_stats.c.o: ../src/entites/execution_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/filestat.dir/src/entites/execution_stats.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/entites/execution_stats.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.c
+
+CMakeFiles/filestat.dir/src/entites/execution_stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/entites/execution_stats.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.c > CMakeFiles/filestat.dir/src/entites/execution_stats.c.i
+
+CMakeFiles/filestat.dir/src/entites/execution_stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/entites/execution_stats.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.c -o CMakeFiles/filestat.dir/src/entites/execution_stats.c.s
+
+CMakeFiles/filestat.dir/src/io/output_writer.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/io/output_writer.c.o: ../src/io/output_writer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/filestat.dir/src/io/output_writer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/io/output_writer.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.c
+
+CMakeFiles/filestat.dir/src/io/output_writer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/io/output_writer.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.c > CMakeFiles/filestat.dir/src/io/output_writer.c.i
+
+CMakeFiles/filestat.dir/src/io/output_writer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/io/output_writer.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.c -o CMakeFiles/filestat.dir/src/io/output_writer.c.s
+
+CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/handlers/execution_stats_producer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.c
+
+CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.c > CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.i
+
+CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.c -o CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s
+
 # Object files for target filestat
 filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/main.c.o" \
 "CMakeFiles/filestat.dir/src/entites/cli_options.c.o" \
 "CMakeFiles/filestat.dir/src/controller/controller.c.o" \
-"CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o" \
+"CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o" \
 "CMakeFiles/filestat.dir/src/io/help_printer.c.o" \
 "CMakeFiles/filestat.dir/src/entites/app_config.c.o" \
 "CMakeFiles/filestat.dir/src/utils/options_parser.c.o" \
@@ -268,7 +307,10 @@ filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/entites/file_info.c.o" \
 "CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o" \
 "CMakeFiles/filestat.dir/src/io/output_reader.c.o" \
-"CMakeFiles/filestat.dir/src/entites/previous_output.c.o"
+"CMakeFiles/filestat.dir/src/entites/previous_output.c.o" \
+"CMakeFiles/filestat.dir/src/entites/execution_stats.c.o" \
+"CMakeFiles/filestat.dir/src/io/output_writer.c.o" \
+"CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o"
 
 # External object files for target filestat
 filestat_EXTERNAL_OBJECTS =
@@ -276,7 +318,7 @@ filestat_EXTERNAL_OBJECTS =
 filestat: CMakeFiles/filestat.dir/src/main.c.o
 filestat: CMakeFiles/filestat.dir/src/entites/cli_options.c.o
 filestat: CMakeFiles/filestat.dir/src/controller/controller.c.o
-filestat: CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o
+filestat: CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o
 filestat: CMakeFiles/filestat.dir/src/io/help_printer.c.o
 filestat: CMakeFiles/filestat.dir/src/entites/app_config.c.o
 filestat: CMakeFiles/filestat.dir/src/utils/options_parser.c.o
@@ -288,9 +330,12 @@ filestat: CMakeFiles/filestat.dir/src/entites/file_info.c.o
 filestat: CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o
 filestat: CMakeFiles/filestat.dir/src/io/output_reader.c.o
 filestat: CMakeFiles/filestat.dir/src/entites/previous_output.c.o
+filestat: CMakeFiles/filestat.dir/src/entites/execution_stats.c.o
+filestat: CMakeFiles/filestat.dir/src/io/output_writer.c.o
+filestat: CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o
 filestat: CMakeFiles/filestat.dir/build.make
 filestat: CMakeFiles/filestat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable filestat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable filestat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filestat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,7 +1,7 @@
 #include <getopt.h>
 #include <stddef.h>
 
-const char *shortOptions = ":vsrh:u:g:l:?";
+const char *shortOptions = ":vsrh:u:g:ln:?";
 const struct option LongOptions[] = {
     {"verbose", no_argument, NULL, 'v'},
     {"stat", no_argument, NULL, 's'},

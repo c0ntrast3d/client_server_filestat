@@ -204,6 +204,33 @@ src/entites/cli_options.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/cli_options.c.s
 .PHONY : src/entites/cli_options.c.s
 
+src/entites/execution_stats.o: src/entites/execution_stats.c.o
+
+.PHONY : src/entites/execution_stats.o
+
+# target to build an object file
+src/entites/execution_stats.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/execution_stats.c.o
+.PHONY : src/entites/execution_stats.c.o
+
+src/entites/execution_stats.i: src/entites/execution_stats.c.i
+
+.PHONY : src/entites/execution_stats.i
+
+# target to preprocess a source file
+src/entites/execution_stats.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/execution_stats.c.i
+.PHONY : src/entites/execution_stats.c.i
+
+src/entites/execution_stats.s: src/entites/execution_stats.c.s
+
+.PHONY : src/entites/execution_stats.s
+
+# target to generate assembly for a file
+src/entites/execution_stats.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/execution_stats.c.s
+.PHONY : src/entites/execution_stats.c.s
+
 src/entites/file_info.o: src/entites/file_info.c.o
 
 .PHONY : src/entites/file_info.o
@@ -284,6 +311,60 @@ src/entites/previous_output.s: src/entites/previous_output.c.s
 src/entites/previous_output.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/entites/previous_output.c.s
 .PHONY : src/entites/previous_output.c.s
+
+src/handlers/app_config_producer.o: src/handlers/app_config_producer.c.o
+
+.PHONY : src/handlers/app_config_producer.o
+
+# target to build an object file
+src/handlers/app_config_producer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o
+.PHONY : src/handlers/app_config_producer.c.o
+
+src/handlers/app_config_producer.i: src/handlers/app_config_producer.c.i
+
+.PHONY : src/handlers/app_config_producer.i
+
+# target to preprocess a source file
+src/handlers/app_config_producer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.i
+.PHONY : src/handlers/app_config_producer.c.i
+
+src/handlers/app_config_producer.s: src/handlers/app_config_producer.c.s
+
+.PHONY : src/handlers/app_config_producer.s
+
+# target to generate assembly for a file
+src/handlers/app_config_producer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.s
+.PHONY : src/handlers/app_config_producer.c.s
+
+src/handlers/execution_stats_producer.o: src/handlers/execution_stats_producer.c.o
+
+.PHONY : src/handlers/execution_stats_producer.o
+
+# target to build an object file
+src/handlers/execution_stats_producer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o
+.PHONY : src/handlers/execution_stats_producer.c.o
+
+src/handlers/execution_stats_producer.i: src/handlers/execution_stats_producer.c.i
+
+.PHONY : src/handlers/execution_stats_producer.i
+
+# target to preprocess a source file
+src/handlers/execution_stats_producer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.i
+.PHONY : src/handlers/execution_stats_producer.c.i
+
+src/handlers/execution_stats_producer.s: src/handlers/execution_stats_producer.c.s
+
+.PHONY : src/handlers/execution_stats_producer.s
+
+# target to generate assembly for a file
+src/handlers/execution_stats_producer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s
+.PHONY : src/handlers/execution_stats_producer.c.s
 
 src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
 
@@ -366,6 +447,33 @@ src/io/output_reader.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_reader.c.s
 .PHONY : src/io/output_reader.c.s
 
+src/io/output_writer.o: src/io/output_writer.c.o
+
+.PHONY : src/io/output_writer.o
+
+# target to build an object file
+src/io/output_writer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_writer.c.o
+.PHONY : src/io/output_writer.c.o
+
+src/io/output_writer.i: src/io/output_writer.c.i
+
+.PHONY : src/io/output_writer.i
+
+# target to preprocess a source file
+src/io/output_writer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_writer.c.i
+.PHONY : src/io/output_writer.c.i
+
+src/io/output_writer.s: src/io/output_writer.c.s
+
+.PHONY : src/io/output_writer.s
+
+# target to generate assembly for a file
+src/io/output_writer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/io/output_writer.c.s
+.PHONY : src/io/output_writer.c.s
+
 src/io/parameters_reader.o: src/io/parameters_reader.c.o
 
 .PHONY : src/io/parameters_reader.o
@@ -419,33 +527,6 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/main.c.s
 .PHONY : src/main.c.s
-
-src/utils/app_config_producer.o: src/utils/app_config_producer.c.o
-
-.PHONY : src/utils/app_config_producer.o
-
-# target to build an object file
-src/utils/app_config_producer.c.o:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/app_config_producer.c.o
-.PHONY : src/utils/app_config_producer.c.o
-
-src/utils/app_config_producer.i: src/utils/app_config_producer.c.i
-
-.PHONY : src/utils/app_config_producer.i
-
-# target to preprocess a source file
-src/utils/app_config_producer.c.i:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/app_config_producer.c.i
-.PHONY : src/utils/app_config_producer.c.i
-
-src/utils/app_config_producer.s: src/utils/app_config_producer.c.s
-
-.PHONY : src/utils/app_config_producer.s
-
-# target to generate assembly for a file
-src/utils/app_config_producer.c.s:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/app_config_producer.c.s
-.PHONY : src/utils/app_config_producer.c.s
 
 src/utils/file_utils.o: src/utils/file_utils.c.o
 
@@ -546,6 +627,9 @@ help:
 	@echo "... src/entites/cli_options.o"
 	@echo "... src/entites/cli_options.i"
 	@echo "... src/entites/cli_options.s"
+	@echo "... src/entites/execution_stats.o"
+	@echo "... src/entites/execution_stats.i"
+	@echo "... src/entites/execution_stats.s"
 	@echo "... src/entites/file_info.o"
 	@echo "... src/entites/file_info.i"
 	@echo "... src/entites/file_info.s"
@@ -555,6 +639,12 @@ help:
 	@echo "... src/entites/previous_output.o"
 	@echo "... src/entites/previous_output.i"
 	@echo "... src/entites/previous_output.s"
+	@echo "... src/handlers/app_config_producer.o"
+	@echo "... src/handlers/app_config_producer.i"
+	@echo "... src/handlers/app_config_producer.s"
+	@echo "... src/handlers/execution_stats_producer.o"
+	@echo "... src/handlers/execution_stats_producer.i"
+	@echo "... src/handlers/execution_stats_producer.s"
 	@echo "... src/handlers/stats_producer.o"
 	@echo "... src/handlers/stats_producer.i"
 	@echo "... src/handlers/stats_producer.s"
@@ -564,15 +654,15 @@ help:
 	@echo "... src/io/output_reader.o"
 	@echo "... src/io/output_reader.i"
 	@echo "... src/io/output_reader.s"
+	@echo "... src/io/output_writer.o"
+	@echo "... src/io/output_writer.i"
+	@echo "... src/io/output_writer.s"
 	@echo "... src/io/parameters_reader.o"
 	@echo "... src/io/parameters_reader.i"
 	@echo "... src/io/parameters_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/utils/app_config_producer.o"
-	@echo "... src/utils/app_config_producer.i"
-	@echo "... src/utils/app_config_producer.s"
 	@echo "... src/utils/file_utils.o"
 	@echo "... src/utils/file_utils.i"
 	@echo "... src/utils/file_utils.s"

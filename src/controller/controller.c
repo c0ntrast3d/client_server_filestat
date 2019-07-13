@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include "../utils/app_config_producer.h"
+#include "../handlers/app_config_producer.h"
 #include "../utils/file_utils.h"
 #include "../entites/input_parameters.h"
 #include "../io/parameters_reader.h"
 #include "../handlers/stats_producer.h"
+#include "../handlers/execution_stats_producer.h"
 #include "../entites/previous_output.h"
 #include "../io/output_reader.h"
 
@@ -19,7 +20,13 @@ void start (int argc, char **argv)
     }
   if (config.verbose)
     {
-      printf ("\nVERBOSE :: PRINTING STATS\n");
-      get_stats (parametersList);
+      printf ("\nVERBOSE :: PRINTING PROCESSED STATS\n");
+      FileInfoList processed = get_stats (parametersList);
+      print_infos (processed);
+    }
+  if (config.stat)
+    {
+      printf ("\nSTAT :: PRINTING EXECUTION STATS\n");
+      get_execution_stats (parametersList);
     }
 }

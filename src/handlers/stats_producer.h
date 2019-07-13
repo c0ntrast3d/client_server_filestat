@@ -7,6 +7,6 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 
-void get_stats(InputParameters inputParameters);
+FileInfoList get_stats (InputParameters inputParameters);
 
 #endif //FILESTAT_STATS_PRODUCER_H

@@ -83,8 +83,9 @@ void print_infos (FileInfoList head)
   if (head == NULL)
     {
       puts ("LIST IS EMPTY");
+      return;
     }
-  FileInfoList current = head;
+  FileInfoList current = head->next;
   while (current != NULL)
     {
       print_info (current);

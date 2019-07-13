@@ -6,34 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.c
-stdio.h
--
-../utils/app_config_producer.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.h
-../utils/file_utils.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
-../entites/input_parameters.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h
-../io/parameters_reader.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.h
-../handlers/stats_producer.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
-../entites/previous_output.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
-../io/output_reader.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.h
-stddef.h
--
-app_config.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.h
-constants.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/constants.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/constants.h
-
 /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
 sys/types.h
 -
@@ -48,9 +20,9 @@ sys/stat.h
 
 /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h
 
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
-file_info.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c
+stats_producer.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
 
 /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
 ../entites/input_parameters.h
@@ -63,18 +35,4 @@ sys/stat.h
 -
 stdlib.h
 -
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.h
-../entites/previous_output.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.h
-../entites/input_parameters.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.h
-../entites/app_config.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
 

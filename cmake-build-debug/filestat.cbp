@@ -95,6 +95,12 @@
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/constants.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.c">
 			<Option target="filestat"/>
 		</Unit>
@@ -111,6 +117,18 @@
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.h">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c">
@@ -131,6 +149,12 @@
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.c">
 			<Option target="filestat"/>
 		</Unit>
@@ -138,12 +162,6 @@
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/main.c">
-			<Option target="filestat"/>
-		</Unit>
-		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.c">
-			<Option target="filestat"/>
-		</Unit>
-		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/app_config_producer.h">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.c">
