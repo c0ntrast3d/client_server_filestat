@@ -11,6 +11,7 @@ CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/app_confi
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/execution_stats_producer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/stats_producer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/io/output_reader.h
+CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/io/output_writer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/io/parameters_reader.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/utils/file_utils.h
 
@@ -43,12 +44,17 @@ CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o: ../src/utils/param
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/entites/execution_stats.h
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/entites/file_info.h
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/entites/input_parameters.h
+CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/entites/previous_output.h
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/handlers/execution_stats_producer.c
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/handlers/execution_stats_producer.h
 CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o: ../src/handlers/stats_producer.h
 
+CMakeFiles/filestat.dir/src/handlers/report_producer.c.o: ../src/handlers/report_producer.c
+CMakeFiles/filestat.dir/src/handlers/report_producer.c.o: ../src/handlers/report_producer.h
+
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/entites/file_info.h
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/entites/input_parameters.h
+CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/entites/previous_output.h
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/handlers/stats_producer.c
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/handlers/stats_producer.h
 
@@ -60,8 +66,10 @@ CMakeFiles/filestat.dir/src/io/output_reader.c.o: ../src/io/output_reader.c
 CMakeFiles/filestat.dir/src/io/output_reader.c.o: ../src/io/output_reader.h
 CMakeFiles/filestat.dir/src/io/output_reader.c.o: ../src/utils/file_utils.h
 
+CMakeFiles/filestat.dir/src/io/output_writer.c.o: ../src/entites/file_info.h
 CMakeFiles/filestat.dir/src/io/output_writer.c.o: ../src/io/output_writer.c
 CMakeFiles/filestat.dir/src/io/output_writer.c.o: ../src/io/output_writer.h
+CMakeFiles/filestat.dir/src/io/output_writer.c.o: ../src/utils/file_utils.h
 
 CMakeFiles/filestat.dir/src/io/parameters_reader.c.o: ../src/entites/input_parameters.h
 CMakeFiles/filestat.dir/src/io/parameters_reader.c.o: ../src/io/parameters_reader.c

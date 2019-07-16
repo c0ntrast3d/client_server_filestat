@@ -2,6 +2,8 @@
 #include "stats_producer.h"
 #include "../entites/execution_stats.h"
 
+void print_execution_stats (ExecutionStats stats);
+
 void get_execution_stats (InputParameters parameters)
 {
   ExecutionStats stats = init_execution_stats ();
@@ -44,12 +46,21 @@ void get_execution_stats (InputParameters parameters)
         }
       current = current->next;
     }
+  print_execution_stats (stats);
+}
 
-  printf ("EXECUTION STATS :: PROCESSED FILES:: # %lu\n", stats.monitoredFiles);
-  printf ("EXECUTION STATS :: PROCESSED DIRS :: # %lu\n", stats.dirsCount);
-  printf ("EXECUTION STATS :: PROCESSED LINKS :: # %lu\n", stats.linksCount);
-  printf ("EXECUTION STATS :: AVERAGE SIZE :: # %lu\n", stats.averageSize);
-  printf ("EXECUTION STATS :: TOTAl SIZE :: # %lu\n", stats.totalSize);
-  printf ("EXECUTION STATS :: MINIMUM SIZE :: # %lu\n", stats.minimumSize);
-  printf ("EXECUTION STATS :: MAXIMUM SIZE :: # %lu\n", stats.maximumSize);
+void print_report (clock_t startTime)
+{
+
+}
+
+void print_execution_stats (ExecutionStats stats)
+{
+  printf ("Processed Files    :    %lu\n", stats.monitoredFiles);
+  printf ("Processed Dirs     :    %lu\n", stats.dirsCount);
+  printf ("Processed LLinks   :    %lu\n", stats.linksCount);
+  printf ("Total Size         :    %lu\n", stats.totalSize);
+  printf ("Average Size       :    %lu\n", stats.averageSize);
+  printf ("Minimum Size       :    %lu\n", stats.minimumSize);
+  printf ("Maximum Size       :    %lu\n", stats.maximumSize);
 }

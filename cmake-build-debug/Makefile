@@ -366,6 +366,33 @@ src/handlers/execution_stats_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s
 .PHONY : src/handlers/execution_stats_producer.c.s
 
+src/handlers/report_producer.o: src/handlers/report_producer.c.o
+
+.PHONY : src/handlers/report_producer.o
+
+# target to build an object file
+src/handlers/report_producer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/report_producer.c.o
+.PHONY : src/handlers/report_producer.c.o
+
+src/handlers/report_producer.i: src/handlers/report_producer.c.i
+
+.PHONY : src/handlers/report_producer.i
+
+# target to preprocess a source file
+src/handlers/report_producer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/report_producer.c.i
+.PHONY : src/handlers/report_producer.c.i
+
+src/handlers/report_producer.s: src/handlers/report_producer.c.s
+
+.PHONY : src/handlers/report_producer.s
+
+# target to generate assembly for a file
+src/handlers/report_producer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/report_producer.c.s
+.PHONY : src/handlers/report_producer.c.s
+
 src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
 
 .PHONY : src/handlers/stats_producer.o
@@ -645,6 +672,9 @@ help:
 	@echo "... src/handlers/execution_stats_producer.o"
 	@echo "... src/handlers/execution_stats_producer.i"
 	@echo "... src/handlers/execution_stats_producer.s"
+	@echo "... src/handlers/report_producer.o"
+	@echo "... src/handlers/report_producer.i"
+	@echo "... src/handlers/report_producer.s"
 	@echo "... src/handlers/stats_producer.o"
 	@echo "... src/handlers/stats_producer.i"
 	@echo "... src/handlers/stats_producer.s"

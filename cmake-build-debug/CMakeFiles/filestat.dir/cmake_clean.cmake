@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/entites/execution_stats.c.o"
   "CMakeFiles/filestat.dir/src/io/output_writer.c.o"
   "CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/report_producer.c.o"
   "filestat.pdb"
   "filestat"
 )

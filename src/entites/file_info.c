@@ -67,15 +67,16 @@ static char *stringify_modes (mode_t modes)
 void print_info (struct FileInfo *info)
 {
   puts ("");
-  printf ("Info Produced:            %s", ctime (&info->date));
-  printf ("File Size:               %ld \n", info->fileSize);
-  printf ("File Modes:              %s \n", stringify_modes (info->modes));
-  printf ("Last Access Time:        %s", ctime (&info->lastAccessed));
-  printf ("Last Modified Time:      %s", ctime (&info->lastModified));
-  printf ("Last Status Change Time: %s", ctime (&info->lastModesModified));
-  printf ("Links To File:           %lu \n", info->linksToFile);
-  printf ("User ID:                 %d \n", info->userId);
-  printf ("Group ID:                %d \n", info->groupId);
+  printf ("Info Produced            :    %s", ctime (&info->date));
+  printf ("File Size                :    %ld \n", info->fileSize);
+  printf ("File Modes               :    %s \n", stringify_modes (info->modes));
+  printf ("Last Access Time         :    %s", ctime (&info->lastAccessed));
+  printf ("Last Modified Time       :    %s", ctime (&info->lastModified));
+  printf ("Last Status Change Time  :    %s", ctime (&info->lastModesModified));
+  printf ("Links To File            :    %lu \n", info->linksToFile);
+  printf ("User ID                  :    %d \n", info->userId);
+  printf ("Group ID                 :    %d \n", info->groupId);
+  puts ("");
 }
 
 void print_infos (FileInfoList head)
@@ -86,10 +87,13 @@ void print_infos (FileInfoList head)
       return;
     }
   FileInfoList current = head->next;
+  int counter = 1;
   while (current != NULL)
     {
+      printf ("(%d) ----------------------", counter);
       print_info (current);
       current = current->next;
+      counter++;
     }
 }
 
@@ -129,16 +133,16 @@ struct FileInfo get_clean_file_info ()
 
 struct FileInfo try_parse_info (char *line)
 {
-  struct FileInfo tmp = get_clean_file_info ();
+  struct FileInfo temp = get_clean_file_info ();
   sscanf (line, "%ld %d %d %ld %u %ld %ld %ld %lu\n",
-          &tmp.date,
-          &tmp.userId,
-          &tmp.groupId,
-          &tmp.fileSize,
-          &tmp.modes,
-          &tmp.lastAccessed,
-          &tmp.lastModified,
-          &tmp.lastModesModified,
-          &tmp.linksToFile);
-  return tmp;
+          &temp.date,
+          &temp.userId,
+          &temp.groupId,
+          &temp.fileSize,
+          &temp.modes,
+          &temp.lastAccessed,
+          &temp.lastModified,
+          &temp.lastModesModified,
+          &temp.linksToFile);
+  return temp;
 }
