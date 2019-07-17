@@ -15,18 +15,17 @@ void start (int argc, char **argv)
   AppConfig config = app_config_from_args (argc, argv);
   InputParameters parametersList = read_input (config.inputFileName);
   PreviousOutputs previousOutputs = read_output (config.outputFileName);
+  //print_parameters (parametersList->next);
   if (config.noscan == 1)
     {
       printf ("\nNOSCAN :: PRINTING PREVIOUS OUTPUT\n");
-      printf ("NOSCAN :: %s\n", previousOutputs->next->path);
       print_previous_stats (previousOutputs);
     }
   if (config.verbose == 1)
     {
       printf ("\nVERBOSE :: PRINTING PROCESSED STATS\n");
-      FileInfoList processed = get_stats (parametersList);
-      write_output (config.outputFileName, processed);
-      print_infos (processed);
+      ProcessedFileInfoList pil = get_stats (parametersList);
+      print_processed_infos (pil);
     }
   if (config.stat == 1)
     {
@@ -43,4 +42,5 @@ void start (int argc, char **argv)
        * */
       get_execution_stats (parametersList);
     }
+
 }

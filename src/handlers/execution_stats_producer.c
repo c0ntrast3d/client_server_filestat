@@ -7,42 +7,42 @@ void print_execution_stats (ExecutionStats stats);
 void get_execution_stats (InputParameters parameters)
 {
   ExecutionStats stats = init_execution_stats ();
-  FileInfoList processed = get_stats (parameters);
+  ProcessedFileInfoList processed = get_stats (parameters);
   if (processed == NULL)
     {
       puts ("LIST IS EMPTY");
       return;
     }
-  FileInfoList current = processed->next;
+  ProcessedFileInfoList current = processed->next;
   int counter = 0;
   while (current != NULL)
     {
       ++counter;
-      if (S_ISREG (current->modes))
+      if (S_ISREG (current->info->modes))
         {
           stats.monitoredFiles++;
         }
-      else if (S_ISLNK (current->modes))
+      else if (S_ISLNK (current->info->modes))
         {
           stats.linksCount++;
         }
-      else if (S_ISDIR (current->modes))
+      else if (S_ISDIR (current->info->modes))
         {
           stats.dirsCount++;
         }
-      stats.totalSize += current->fileSize;
+      stats.totalSize += current->info->fileSize;
       stats.averageSize = stats.totalSize / counter;
       if (stats.minimumSize == 0)
         {
-          stats.minimumSize = current->fileSize;
+          stats.minimumSize = current->info->fileSize;
         }
-      if (stats.minimumSize > current->fileSize)
+      if (stats.minimumSize > current->info->fileSize)
         {
-          stats.minimumSize = current->fileSize;
+          stats.minimumSize = current->info->fileSize;
         }
-      if (stats.maximumSize < current->fileSize)
+      if (stats.maximumSize < current->info->fileSize)
         {
-          stats.maximumSize = current->fileSize;
+          stats.maximumSize = current->info->fileSize;
         }
       current = current->next;
     }

@@ -7,7 +7,9 @@
 #include <sys/stat.h>
 #include "../entites/previous_output.h"
 #include <stdlib.h>
+#include <dirent.h>
+#include <string.h>
 
-FileInfoList get_stats (InputParameters inputParameters);
+ProcessedFileInfoList get_stats (InputParameters inputParameters);
 
 #endif //FILESTAT_STATS_PRODUCER_H

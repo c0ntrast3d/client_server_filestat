@@ -31,14 +31,14 @@ PreviousOutputs read_output (char *path)
           if (buffer[1] != '#')
             {
               currentPath = malloc (sizeof (char[PATH_MAX]));
-              printf ("IS_PATH :: %s", buffer);
+              //printf ("IS_PATH :: %s", buffer);
               sscanf (buffer, "# %s", currentPath);
             }
           else
             {
               if (strcmp (buffer, "###\n") == 0)
                 {
-                  printf ("IS_DELIMITER\n");
+                  //printf ("IS_DELIMITER\n");
                   add_output (outputs, currentPath, currentInfo);
                   currentInfo = create_file_infos ();
                 }
@@ -46,12 +46,12 @@ PreviousOutputs read_output (char *path)
         }
       else
         {
-          printf ("IS_INFO :: %s\n", buffer);
+          //printf ("IS_INFO :: %s\n", buffer);
           struct FileInfo info = try_parse_info (buffer);
           add_file_info (currentInfo, info);
         }
     }
-  printf ("PREV OUTPUTS :: PATH :: %s", outputs->next->path);
+  fclose (inputFile);
   return outputs;
 }
 

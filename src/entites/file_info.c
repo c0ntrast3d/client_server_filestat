@@ -8,6 +8,36 @@ FileInfoList create_file_infos ()
   return temp;
 }
 
+ProcessedFileInfoList create_processed_file_infos ()
+{
+  ProcessedFileInfoList temp;
+  temp = malloc (sizeof (struct ProcessedFileInfo));
+  temp->next = NULL;
+  return temp;
+}
+
+void add_processed_file_info (ProcessedFileInfoList head, char *path, FileInfoList list)
+{
+  ProcessedFileInfoList temp, p;
+  temp = create_processed_file_infos ();
+  temp->path = path;
+  temp->info = list;
+
+  if (head == NULL)
+    {
+      head = temp;
+    }
+  else
+    {
+      p = head;
+      while (p->next != NULL)
+        {
+          p = p->next;
+        }
+      p->next = temp;
+    }
+}
+
 void add_file_info (FileInfoList head, struct FileInfo node)
 {
   FileInfoList temp, p;
@@ -83,7 +113,7 @@ void print_infos (FileInfoList head)
 {
   if (head == NULL)
     {
-      puts ("LIST IS EMPTY");
+      puts ("EMPTY");
       return;
     }
   FileInfoList current = head->next;
@@ -92,6 +122,24 @@ void print_infos (FileInfoList head)
     {
       printf ("(%d) ----------------------", counter);
       print_info (current);
+      current = current->next;
+      counter++;
+    }
+}
+
+void print_processed_infos (ProcessedFileInfoList head)
+{
+  if (head == NULL)
+    {
+      puts ("PFIL EMPTY");
+      return;
+    }
+  ProcessedFileInfoList current = head->next;
+  int counter = 1;
+  while (current != NULL)
+    {
+      printf ("PATH :: %s\n", current->path);
+      print_infos (current->info);
       current = current->next;
       counter++;
     }
@@ -134,7 +182,7 @@ struct FileInfo get_clean_file_info ()
 struct FileInfo try_parse_info (char *line)
 {
   struct FileInfo temp = get_clean_file_info ();
-  sscanf (line, "%ld %d %d %ld %u %ld %ld %ld %lu\n",
+  sscanf (line, "%ld %d %d %ld %o %ld %ld %ld %ld\n",
           &temp.date,
           &temp.userId,
           &temp.groupId,

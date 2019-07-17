@@ -11,8 +11,8 @@ void write_output (char *fileName, FileInfoList infoList)
   FileInfoList current = infoList->next;
   while (current != NULL)
     {
-      fprintf (outputFile, "# %s\n", "");
-      fprintf (outputFile, "%ld %d %d %ld %o %ld %ld %ld %lu\n",
+      fprintf (outputFile, "# %s\n", "pathX");
+      fprintf (outputFile, "%ld %d %d %ld %o %ld %ld %ld %ld\n",
                current->date,
                current->userId,
                current->groupId,

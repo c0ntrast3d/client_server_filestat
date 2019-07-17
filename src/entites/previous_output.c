@@ -41,7 +41,7 @@ void print_previous_stats (PreviousOutputs head)
   while (current != NULL)
     {
       if (current->info != NULL)
-        print_infos (current->info->next);
+        print_infos (current->info);
       current = current->next;
     }
 }

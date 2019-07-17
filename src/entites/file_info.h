@@ -22,9 +22,21 @@ struct FileInfo {
 
 typedef struct FileInfo *FileInfoList;
 
+struct ProcessedFileInfo {
+  char *path;
+  FileInfoList info;
+  struct ProcessedFileInfo *next;
+};
+
+typedef struct ProcessedFileInfo *ProcessedFileInfoList;
+
 FileInfoList create_file_infos ();
 
 void add_file_info (FileInfoList head, struct FileInfo node);
+ProcessedFileInfoList create_processed_file_infos ();
+
+void add_processed_file_info (ProcessedFileInfoList head, char *path, FileInfoList list);
+void print_processed_infos (ProcessedFileInfoList head);
 
 void print_infos (FileInfoList head);
 

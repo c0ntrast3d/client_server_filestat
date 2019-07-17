@@ -18,17 +18,33 @@ stdio.h
 sys/stat.h
 -
 
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.c
-output_writer.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h
 
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
+file_info.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
+
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c
+dirent.h
+-
+stats_producer.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
+
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
+../entites/input_parameters.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/input_parameters.h
 ../entites/file_info.h
 /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
 stdio.h
 -
-../utils/file_utils.h
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
-
-/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
+sys/stat.h
+-
+../entites/previous_output.h
+/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
+stdlib.h
+-
+dirent.h
+-
+string.h
+-
 
