@@ -143,6 +143,18 @@
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/report_producer.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_by_length.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_by_length.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c">
 			<Option target="filestat"/>
 		</Unit>

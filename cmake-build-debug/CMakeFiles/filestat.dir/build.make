@@ -317,6 +317,32 @@ CMakeFiles/filestat.dir/src/handlers/history_producer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/history_producer.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.c -o CMakeFiles/filestat.dir/src/handlers/history_producer.c.s
 
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: ../src/handlers/search_user_group.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.c
+
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/handlers/search_user_group.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.c > CMakeFiles/filestat.dir/src/handlers/search_user_group.c.i
+
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/search_user_group.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.c -o CMakeFiles/filestat.dir/src/handlers/search_user_group.c.s
+
+CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o: CMakeFiles/filestat.dir/flags.make
+CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o: ../src/handlers/search_by_length.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o   -c /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_by_length.c
+
+CMakeFiles/filestat.dir/src/handlers/search_by_length.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/filestat.dir/src/handlers/search_by_length.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_by_length.c > CMakeFiles/filestat.dir/src/handlers/search_by_length.c.i
+
+CMakeFiles/filestat.dir/src/handlers/search_by_length.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/filestat.dir/src/handlers/search_by_length.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_by_length.c -o CMakeFiles/filestat.dir/src/handlers/search_by_length.c.s
+
 # Object files for target filestat
 filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/main.c.o" \
@@ -338,7 +364,9 @@ filestat_OBJECTS = \
 "CMakeFiles/filestat.dir/src/io/output_writer.c.o" \
 "CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o" \
 "CMakeFiles/filestat.dir/src/handlers/report_producer.c.o" \
-"CMakeFiles/filestat.dir/src/handlers/history_producer.c.o"
+"CMakeFiles/filestat.dir/src/handlers/history_producer.c.o" \
+"CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o" \
+"CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o"
 
 # External object files for target filestat
 filestat_EXTERNAL_OBJECTS =
@@ -363,9 +391,11 @@ filestat: CMakeFiles/filestat.dir/src/io/output_writer.c.o
 filestat: CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o
 filestat: CMakeFiles/filestat.dir/src/handlers/report_producer.c.o
 filestat: CMakeFiles/filestat.dir/src/handlers/history_producer.c.o
+filestat: CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o
+filestat: CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o
 filestat: CMakeFiles/filestat.dir/build.make
 filestat: CMakeFiles/filestat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable filestat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable filestat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filestat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -11,6 +11,7 @@ CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/app_confi
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/execution_stats_producer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/history_producer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/report_producer.h
+CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/search_user_group.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/handlers/stats_producer.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/io/output_reader.h
 CMakeFiles/filestat.dir/src/controller/controller.c.o: ../src/io/output_writer.h
@@ -60,6 +61,11 @@ CMakeFiles/filestat.dir/src/handlers/history_producer.c.o: ../src/handlers/histo
 CMakeFiles/filestat.dir/src/handlers/report_producer.c.o: ../src/entites/file_info.h
 CMakeFiles/filestat.dir/src/handlers/report_producer.c.o: ../src/handlers/report_producer.c
 CMakeFiles/filestat.dir/src/handlers/report_producer.c.o: ../src/handlers/report_producer.h
+
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: ../src/entites/file_info.h
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: ../src/entites/previous_output.h
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: ../src/handlers/search_user_group.c
+CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o: ../src/handlers/search_user_group.h
 
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/entites/file_info.h
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o: ../src/entites/input_parameters.h

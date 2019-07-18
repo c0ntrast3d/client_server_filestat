@@ -2,6 +2,7 @@
 #define FILESTAT_APP_CONFIG_H
 
 #include <stddef.h>
+#include <zconf.h>
 #include "app_config.h"
 #include "constants.h"
 
@@ -12,9 +13,9 @@ typedef struct AppConfig_t {
   int history;
   char *historyTarget;
   int user;
-  char *userId;
+  uid_t userId;
   int group;
-  char *groupId;
+  gid_t groupId;
   int length;
   int lengthMin;
   int lengthMax;

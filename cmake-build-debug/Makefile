@@ -420,6 +420,60 @@ src/handlers/report_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/report_producer.c.s
 .PHONY : src/handlers/report_producer.c.s
 
+src/handlers/search_by_length.o: src/handlers/search_by_length.c.o
+
+.PHONY : src/handlers/search_by_length.o
+
+# target to build an object file
+src/handlers/search_by_length.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o
+.PHONY : src/handlers/search_by_length.c.o
+
+src/handlers/search_by_length.i: src/handlers/search_by_length.c.i
+
+.PHONY : src/handlers/search_by_length.i
+
+# target to preprocess a source file
+src/handlers/search_by_length.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_by_length.c.i
+.PHONY : src/handlers/search_by_length.c.i
+
+src/handlers/search_by_length.s: src/handlers/search_by_length.c.s
+
+.PHONY : src/handlers/search_by_length.s
+
+# target to generate assembly for a file
+src/handlers/search_by_length.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_by_length.c.s
+.PHONY : src/handlers/search_by_length.c.s
+
+src/handlers/search_user_group.o: src/handlers/search_user_group.c.o
+
+.PHONY : src/handlers/search_user_group.o
+
+# target to build an object file
+src/handlers/search_user_group.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o
+.PHONY : src/handlers/search_user_group.c.o
+
+src/handlers/search_user_group.i: src/handlers/search_user_group.c.i
+
+.PHONY : src/handlers/search_user_group.i
+
+# target to preprocess a source file
+src/handlers/search_user_group.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_user_group.c.i
+.PHONY : src/handlers/search_user_group.c.i
+
+src/handlers/search_user_group.s: src/handlers/search_user_group.c.s
+
+.PHONY : src/handlers/search_user_group.s
+
+# target to generate assembly for a file
+src/handlers/search_user_group.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_user_group.c.s
+.PHONY : src/handlers/search_user_group.c.s
+
 src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
 
 .PHONY : src/handlers/stats_producer.o
@@ -705,6 +759,12 @@ help:
 	@echo "... src/handlers/report_producer.o"
 	@echo "... src/handlers/report_producer.i"
 	@echo "... src/handlers/report_producer.s"
+	@echo "... src/handlers/search_by_length.o"
+	@echo "... src/handlers/search_by_length.i"
+	@echo "... src/handlers/search_by_length.s"
+	@echo "... src/handlers/search_user_group.o"
+	@echo "... src/handlers/search_user_group.i"
+	@echo "... src/handlers/search_user_group.s"
 	@echo "... src/handlers/stats_producer.o"
 	@echo "... src/handlers/stats_producer.i"
 	@echo "... src/handlers/stats_producer.s"

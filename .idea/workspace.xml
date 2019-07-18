@@ -15,6 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e131771-2368-4a19-a27f-e6ea6af1cc44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/handlers/search_user_group.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/handlers/search_user_group.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -27,21 +29,16 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/controller.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/controller.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/app_config.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/app_config.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/filestat" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/filestat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/filestat.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/filestat.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/controller.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/controller.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/execution_stats_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/execution_stats_producer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/execution_stats_producer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/execution_stats_producer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/report_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/report_producer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/report_producer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/report_producer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/stats_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/stats_producer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/stats_producer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/stats_producer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/output_writer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/output_writer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/output_writer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/output_writer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/file_utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/file_utils.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/file_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/file_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/app_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/app_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/previous_output.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/previous_output.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/history_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/history_producer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/options_parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/options_parser.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,6 +56,18 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/io/output_reader.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-449">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1320">
@@ -70,11 +79,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+                <state relative-caret-position="655">
+                  <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -83,90 +92,57 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/cli_options.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/report_producer.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="696">
-                  <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/report_producer.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#57#88#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1632">
-                  <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                  <folding>
-                    <element signature="e#75#115#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+                <state relative-caret-position="264">
+                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.h">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+                <state relative-caret-position="535">
+                  <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.c">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.h">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/entites/previous_output.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="449">
+                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
                   <folding>
-                    <element signature="e#59#98#0" expanded="true" />
+                    <element signature="e#0#28#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
+            <entry file="file://$PROJECT_DIR$/src/controller/controller.h">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+                <state relative-caret-position="72">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                   <folding>
-                    <element signature="e#59#81#0" expanded="true" />
+                    <element signature="e#61#94#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -177,31 +153,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/io/output_reader.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1176">
-                  <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/io/output_reader.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/handlers/app_config_producer.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+                <state relative-caret-position="264">
+                  <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -210,12 +165,24 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/utils/params_parser.c">
+            <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+                <state relative-caret-position="312">
+                  <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
                   <folding>
-                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#61#80#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -224,8 +191,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+                <state relative-caret-position="25">
+                  <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -267,6 +234,18 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="82">
+                  <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#59#81#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/io/parameters_reader.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1104">
@@ -301,10 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/controller/controller.h" />
-        <option value="$PROJECT_DIR$/src/entites/global_args.c" />
-        <option value="$PROJECT_DIR$/src/entites/global_args.h" />
-        <option value="$PROJECT_DIR$/src/utils/parameters_validation.c" />
         <option value="$PROJECT_DIR$/src/entites/cli_args.h" />
         <option value="$PROJECT_DIR$/src/utils/parameters_validation.h" />
         <option value="$PROJECT_DIR$/src/entites/cli_args.c" />
@@ -312,7 +287,6 @@
         <option value="$PROJECT_DIR$/src/entites/options.c" />
         <option value="$PROJECT_DIR$/src/utils/params_parser.c" />
         <option value="$PROJECT_DIR$/src/utils/params_parser.h" />
-        <option value="$PROJECT_DIR$/src/utils/options_parser.c" />
         <option value="$PROJECT_DIR$/src/utils/options_parser.h" />
         <option value="$PROJECT_DIR$/src/utils/app_config_producer.h" />
         <option value="$PROJECT_DIR$/src/entites/input_parameter.c" />
@@ -331,8 +305,6 @@
         <option value="$PROJECT_DIR$/src/entites/cli_options.c" />
         <option value="$PROJECT_DIR$/src/entites/execution_stats.c" />
         <option value="$PROJECT_DIR$/src/entites/execution_stats.h" />
-        <option value="$PROJECT_DIR$/src/entites/app_config.h" />
-        <option value="$PROJECT_DIR$/src/entites/previous_output.c" />
         <option value="$PROJECT_DIR$/src/entites/input_parameters.c" />
         <option value="$PROJECT_DIR$/src/io/output_reader.c" />
         <option value="$PROJECT_DIR$/src/entites/previous_output.h" />
@@ -346,21 +318,27 @@
         <option value="$PROJECT_DIR$/src/utils/file_utils.c" />
         <option value="$PROJECT_DIR$/src/handlers/stats_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/history_producer.h" />
-        <option value="$PROJECT_DIR$/src/handlers/history_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/execution_stats_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/report_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/execution_stats_producer.h" />
         <option value="$PROJECT_DIR$/src/handlers/report_producer.h" />
+        <option value="$PROJECT_DIR$/src/handlers/history_producer.c" />
+        <option value="$PROJECT_DIR$/src/utils/options_parser.c" />
+        <option value="$PROJECT_DIR$/src/entites/app_config.h" />
+        <option value="$PROJECT_DIR$/src/entites/previous_output.c" />
+        <option value="$PROJECT_DIR$/src/handlers/search_user_group.h" />
         <option value="$PROJECT_DIR$/src/controller/controller.c" />
+        <option value="$PROJECT_DIR$/src/handlers/search_user_group.c" />
+        <option value="$PROJECT_DIR$/src/handlers/search_by_length.h" />
+        <option value="$PROJECT_DIR$/src/handlers/search_by_length.c" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="159" />
-    <option name="width" value="1440" />
-    <option name="height" value="790" />
+    <option name="y" value="28" />
+    <option name="width" value="1920" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -449,7 +427,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="filestat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--report $USER_HOME$/Desktop/filestat.in $USER_HOME$/Desktop/filestat.db" PASS_PARENT_ENVS_2="true" PROJECT_NAME="filestat" TARGET_NAME="filestat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="filestat" RUN_TARGET_NAME="filestat">
+    <configuration name="filestat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--report --group 1000 --user 1000 $USER_HOME$/Desktop/filestat.in $USER_HOME$/Desktop/filestat.db" PASS_PARENT_ENVS_2="true" PROJECT_NAME="filestat" TARGET_NAME="filestat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="filestat" RUN_TARGET_NAME="filestat">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -482,7 +460,7 @@
       <workItem from="1563282966521" duration="4249000" />
       <workItem from="1563293739760" duration="12102000" />
       <workItem from="1563382606104" duration="12272000" />
-      <workItem from="1563437323225" duration="1452000" />
+      <workItem from="1563437323225" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="- backup">
       <created>1562510130335</created>
@@ -526,11 +504,27 @@
       <option name="project" value="LOCAL" />
       <updated>1563374934408</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- backup">
+      <created>1563438825684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563438825684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181054000" />
+    <option name="totallyTimeSpent" value="185784000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
@@ -541,11 +535,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.4616228" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.5833333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43617022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3234649" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32982087" />
@@ -603,11 +597,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include/stddef.h" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_nlink_t.h" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/stat.h" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_s_ifmt.h" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.db" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/time.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/unistd.h" />
@@ -658,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#61#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/help_printer.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -679,16 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/previous_output.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,40 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#59#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/output_reader.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/output_reader.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/app_config_producer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,46 +805,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entites/cli_options.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,7 +818,7 @@
     <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding>
             <element signature="e#59#98#0" expanded="true" />
           </folding>
@@ -947,15 +852,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
+    <entry file="file://$PROJECT_DIR$/src/controller/controller.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="1320">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/app_config_producer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding>
+            <element signature="e#59#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#61#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/previous_output.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/output_reader.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#61#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.c">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

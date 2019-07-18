@@ -10,6 +10,7 @@
 #include "../io/output_writer.h"
 #include "../handlers/history_producer.h"
 #include "../handlers/report_producer.h"
+#include "../handlers/search_user_group.h"
 
 void start (int argc, char **argv)
 {
@@ -17,7 +18,6 @@ void start (int argc, char **argv)
   AppConfig config = app_config_from_args (argc, argv);
   InputParameters parametersList = read_input (config.inputFileName);
   PreviousOutputs previousOutputs = read_output (config.outputFileName);
-  //print_parameters (parametersList->next);
   ProcessedFileInfoList pil = get_stats (parametersList);
 
   if (config.noscan == 1)
@@ -45,5 +45,15 @@ void start (int argc, char **argv)
     {
       printf ("\nHISTORY :: PRINTING HISTORY\n");
       print_history (get_history (previousOutputs, config.historyTarget), config.historyTarget);
+    }
+  if (config.user == 1)
+    {
+      printf ("\nUSER :: PRINTING USER FILES INFO\n");
+      print_user_files (get_user_files (previousOutputs, config.userId), config.userId);
+    }
+  if (config.group == 1)
+    {
+      printf ("\nGROUP :: PRINTING GROUP FILES INFO\n");
+      print_group_files (get_group_files (previousOutputs, config.groupId), config.groupId);
     }
 }

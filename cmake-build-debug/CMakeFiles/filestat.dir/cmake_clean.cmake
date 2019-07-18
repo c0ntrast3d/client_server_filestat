@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o"
   "CMakeFiles/filestat.dir/src/handlers/report_producer.c.o"
   "CMakeFiles/filestat.dir/src/handlers/history_producer.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o"
   "filestat.pdb"
   "filestat"
 )

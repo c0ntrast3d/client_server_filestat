@@ -1,7 +1,5 @@
 #include "history_producer.h"
 
-void print_history (FileInfoList history, char *path);
-
 FileInfoList get_history (PreviousOutputs previous, char *searchTerm)
 {
   if (previous->next == NULL)

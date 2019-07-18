@@ -35,6 +35,7 @@ void print_previous_stats (PreviousOutputs head)
 {
   if (head == NULL)
     {
+      printf ("\nDATABASE IS EMPTY\n");
       return;
     }
   PreviousOutputs current = head;
