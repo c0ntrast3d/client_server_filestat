@@ -11,5 +11,7 @@ const struct option LongOptions[] = {
     {"group", required_argument, NULL, 'g'},
     {"length", required_argument, NULL, 'l'},
     {"noscan", no_argument, NULL, 'n'},
+    {"host", required_argument, NULL},
+    {"port", required_argument, NULL},
     {NULL, 0, NULL, 0}
 };

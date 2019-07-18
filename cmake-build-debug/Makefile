@@ -393,6 +393,33 @@ src/handlers/history_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/history_producer.c.s
 .PHONY : src/handlers/history_producer.c.s
 
+src/handlers/input_output_merger.o: src/handlers/input_output_merger.c.o
+
+.PHONY : src/handlers/input_output_merger.o
+
+# target to build an object file
+src/handlers/input_output_merger.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/input_output_merger.c.o
+.PHONY : src/handlers/input_output_merger.c.o
+
+src/handlers/input_output_merger.i: src/handlers/input_output_merger.c.i
+
+.PHONY : src/handlers/input_output_merger.i
+
+# target to preprocess a source file
+src/handlers/input_output_merger.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/input_output_merger.c.i
+.PHONY : src/handlers/input_output_merger.c.i
+
+src/handlers/input_output_merger.s: src/handlers/input_output_merger.c.s
+
+.PHONY : src/handlers/input_output_merger.s
+
+# target to generate assembly for a file
+src/handlers/input_output_merger.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/input_output_merger.c.s
+.PHONY : src/handlers/input_output_merger.c.s
+
 src/handlers/report_producer.o: src/handlers/report_producer.c.o
 
 .PHONY : src/handlers/report_producer.o
@@ -756,6 +783,9 @@ help:
 	@echo "... src/handlers/history_producer.o"
 	@echo "... src/handlers/history_producer.i"
 	@echo "... src/handlers/history_producer.s"
+	@echo "... src/handlers/input_output_merger.o"
+	@echo "... src/handlers/input_output_merger.i"
+	@echo "... src/handlers/input_output_merger.s"
 	@echo "... src/handlers/report_producer.o"
 	@echo "... src/handlers/report_producer.i"
 	@echo "... src/handlers/report_producer.s"

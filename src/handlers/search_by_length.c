@@ -1,19 +1,19 @@
 #include "search_by_length.h"
 
-FileInfoList get_files_by_length (PreviousOutputs previous, long int lengthMin, long int lengthMax)
+FileInfoList get_files_by_length (ProcessedFileInfoList processed, long int lengthMin, long int lengthMax)
 {
   if (lengthMax == 0)
     {
       printf ("MAX LENGTH CAN'T BE 0\n");
       return NULL;
     }
-  if (previous->next == NULL)
+  if (processed->next == NULL)
     {
       printf ("LENGTH :: CAN'T SEARCH ON VOID DATABASE\n");
       return NULL;
     }
   FileInfoList filesByLength = create_file_infos ();
-  PreviousOutputs currentOutput = previous->next;
+  ProcessedFileInfoList currentOutput = processed->next;
   while (currentOutput != NULL)
     {
       FileInfoList currentFile = currentOutput->info->next;
@@ -32,7 +32,7 @@ FileInfoList get_files_by_length (PreviousOutputs previous, long int lengthMin, 
 
 void print_files_by_length (FileInfoList filesByLength, long int lengthMin, long int lengthMax)
 {
-  if (filesByLength->next != NULL)
+  if (filesByLength != NULL)
     {
       printf ("LENGTH :: Min : %ld | Max : %ld\n", lengthMin, lengthMax);
       print_infos (filesByLength);

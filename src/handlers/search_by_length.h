@@ -3,7 +3,7 @@
 
 #include "../entites/previous_output.h"
 
-FileInfoList get_files_by_length (PreviousOutputs previous, long int lengthMin, long int lengthMax);
+FileInfoList get_files_by_length (ProcessedFileInfoList previous, long int lengthMin, long int lengthMax);
 void print_files_by_length (FileInfoList filesByLength, long int lengthMin, long int lengthMax);
 
 #endif //_SEARCH_BY_LENGTH_H_

@@ -53,7 +53,7 @@ FileInfoList get_group_files (PreviousOutputs previous, gid_t groupId)
 
 void print_user_files (FileInfoList userFiles, uid_t userId)
 {
-  if (userFiles->next != NULL)
+  if (userFiles != NULL)
     {
       printf ("USER ID %u\n", userId);
       print_infos (userFiles);
@@ -66,7 +66,7 @@ void print_user_files (FileInfoList userFiles, uid_t userId)
 
 void print_group_files (FileInfoList groupFiles, uid_t groupId)
 {
-  if (groupFiles->next != NULL)
+  if (groupFiles != NULL)
     {
       printf ("GROUP ID %u\n", groupId);
       print_infos (groupFiles);

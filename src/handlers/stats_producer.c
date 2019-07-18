@@ -41,7 +41,7 @@ ProcessedFileInfoList get_stats (InputParameters inputParameters)
   return fileInfoList;
 }
 
-static FileInfoList process_directory (char *path, int followLink)
+FileInfoList process_directory (char *path, int followLink)
 {
   DIR *directory;
   struct dirent *dirStream;
@@ -59,8 +59,6 @@ static FileInfoList process_directory (char *path, int followLink)
             }
           filePath = malloc (sizeof (char[PATH_MAX]));
           sprintf (filePath, "%s/%s", path, dirStream->d_name);
-          //printf ("%s\n", dirStream->d_name);
-
           if (followLink == 1)
             {
               lstat (filePath, &statsBuffer);
@@ -80,3 +78,5 @@ static FileInfoList process_directory (char *path, int followLink)
     }
   return currentFiles;
 }
+
+

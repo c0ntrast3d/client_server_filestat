@@ -15,8 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e131771-2368-4a19-a27f-e6ea6af1cc44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/handlers/search_user_group.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/handlers/search_user_group.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -30,15 +28,18 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/controller.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/controller.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/app_config.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/app_config.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/io/help_printer.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/filestat.dir/src/io/help_printer.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/filestat" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/filestat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/filestat.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/filestat.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/controller.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/controller.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/app_config.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/app_config.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entites/app_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/app_config.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entites/previous_output.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/previous_output.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/history_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/history_producer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/options_parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/options_parser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entites/cli_options.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/entites/cli_options.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/search_by_length.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/search_by_length.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/search_by_length.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/search_by_length.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/search_user_group.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/search_user_group.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/stats_producer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/stats_producer.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,24 +57,30 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/io/output_reader.c">
+            <entry file="file://$PROJECT_DIR$/src/handlers/stats_producer.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-449">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-1478">
+                  <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.c">
+            <entry file="file://$PROJECT_DIR$/src/handlers/input_output_merger.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1320">
-                  <caret line="55" selection-start-line="55" selection-end-line="55" />
+                <state>
+                  <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/handlers/input_output_merger.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="7" column="21" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
                   <folding>
-                    <element signature="e#0#37#0" expanded="true" />
+                    <element signature="e#65#98#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -82,8 +89,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="655">
-                  <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+                <state relative-caret-position="394">
+                  <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -92,10 +99,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.c">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                <state relative-caret-position="-72">
+                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
                 </state>
               </provider>
             </entry>
@@ -103,46 +119,33 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+                <state relative-caret-position="288">
+                  <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.in">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="24">
+                  <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.c">
+            <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.db">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.h">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/previous_output.c">
+            <entry file="file://$PROJECT_DIR$/src/io/output_writer.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="449">
-                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+                <state relative-caret-position="168">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
                   <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/controller/controller.h">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                  <folding>
-                    <element signature="e#61#94#0" expanded="true" />
+                    <element signature="e#53#86#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -167,8 +170,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+                <state relative-caret-position="487">
+                  <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#27#0" expanded="true" />
                   </folding>
@@ -177,10 +180,31 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/entites/cli_options.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/io/help_printer.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                <state relative-caret-position="679">
+                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
                   <folding>
                     <element signature="e#61#80#0" expanded="true" />
                   </folding>
@@ -189,37 +213,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/entites/app_config.c">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="25">
                   <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/cli_options.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/constants.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/entites/execution_stats.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="48">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -236,8 +242,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="82">
-                  <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+                <state relative-caret-position="105">
+                  <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
                   <folding>
                     <element signature="e#59#81#0" expanded="true" />
                   </folding>
@@ -280,9 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/entites/cli_args.h" />
-        <option value="$PROJECT_DIR$/src/utils/parameters_validation.h" />
-        <option value="$PROJECT_DIR$/src/entites/cli_args.c" />
         <option value="$PROJECT_DIR$/src/entites/options.h" />
         <option value="$PROJECT_DIR$/src/entites/options.c" />
         <option value="$PROJECT_DIR$/src/utils/params_parser.c" />
@@ -292,45 +295,48 @@
         <option value="$PROJECT_DIR$/src/entites/input_parameter.c" />
         <option value="$PROJECT_DIR$/src/entites/input_parameter.h" />
         <option value="$PROJECT_DIR$/src/io/parameters_reader.h" />
-        <option value="$PROJECT_DIR$/src/entites/app_config.c" />
         <option value="$PROJECT_DIR$/src/entites/cli_options.h" />
         <option value="$PROJECT_DIR$/src/io/output_reader.h" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/filestat.db" />
         <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/io/help_printer.c" />
         <option value="$PROJECT_DIR$/src/utils/app_config_producer.c" />
         <option value="$PROJECT_DIR$/src/entites/input_parameters.h" />
         <option value="$PROJECT_DIR$/src/entites/constants.h" />
-        <option value="$PROJECT_DIR$/src/entites/cli_options.c" />
         <option value="$PROJECT_DIR$/src/entites/execution_stats.c" />
         <option value="$PROJECT_DIR$/src/entites/execution_stats.h" />
         <option value="$PROJECT_DIR$/src/entites/input_parameters.c" />
         <option value="$PROJECT_DIR$/src/io/output_reader.c" />
         <option value="$PROJECT_DIR$/src/entites/previous_output.h" />
-        <option value="$PROJECT_DIR$/src/entites/file_info.h" />
         <option value="$PROJECT_DIR$/src/io/parameters_reader.c" />
-        <option value="$PROJECT_DIR$/src/io/output_writer.h" />
         <option value="$PROJECT_DIR$/src/entites/file_info.c" />
-        <option value="$PROJECT_DIR$/src/io/output_writer.c" />
-        <option value="$PROJECT_DIR$/src/handlers/stats_producer.h" />
         <option value="$PROJECT_DIR$/src/utils/file_utils.h" />
-        <option value="$PROJECT_DIR$/src/utils/file_utils.c" />
-        <option value="$PROJECT_DIR$/src/handlers/stats_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/history_producer.h" />
         <option value="$PROJECT_DIR$/src/handlers/execution_stats_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/report_producer.c" />
         <option value="$PROJECT_DIR$/src/handlers/execution_stats_producer.h" />
         <option value="$PROJECT_DIR$/src/handlers/report_producer.h" />
         <option value="$PROJECT_DIR$/src/handlers/history_producer.c" />
-        <option value="$PROJECT_DIR$/src/utils/options_parser.c" />
-        <option value="$PROJECT_DIR$/src/entites/app_config.h" />
         <option value="$PROJECT_DIR$/src/entites/previous_output.c" />
         <option value="$PROJECT_DIR$/src/handlers/search_user_group.h" />
-        <option value="$PROJECT_DIR$/src/controller/controller.c" />
+        <option value="$PROJECT_DIR$/src/utils/options_parser.c" />
+        <option value="$PROJECT_DIR$/src/entites/file_info.h" />
+        <option value="$PROJECT_DIR$/src/entites/cli_options.c" />
+        <option value="$PROJECT_DIR$/src/io/help_printer.c" />
+        <option value="$PROJECT_DIR$/src/handlers/stats_producer.c" />
+        <option value="$PROJECT_DIR$/src/handlers/stats_producer.h" />
+        <option value="$PROJECT_DIR$/src/utils/file_utils.c" />
+        <option value="$PROJECT_DIR$/src/io/output_writer.h" />
+        <option value="$PROJECT_DIR$/src/io/output_writer.c" />
+        <option value="$PROJECT_DIR$/src/handlers/input_output_merger.h" />
+        <option value="$PROJECT_DIR$/src/entites/app_config.h" />
         <option value="$PROJECT_DIR$/src/handlers/search_user_group.c" />
+        <option value="$PROJECT_DIR$/src/entites/app_config.c" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/filestat.in" />
+        <option value="$PROJECT_DIR$/src/handlers/input_output_merger.c" />
         <option value="$PROJECT_DIR$/src/handlers/search_by_length.h" />
         <option value="$PROJECT_DIR$/src/handlers/search_by_length.c" />
+        <option value="$PROJECT_DIR$/src/controller/controller.c" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/filestat.db" />
       </list>
     </option>
   </component>
@@ -352,6 +358,11 @@
             <path>
               <item name="filestat" type="b2602c69:ProjectViewProjectNode" />
               <item name="os_lab_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filestat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os_lab_project" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filestat" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +409,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oslp_copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -408,7 +419,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
       <recent name="$PROJECT_DIR$/src/handlers" />
       <recent name="$PROJECT_DIR$/src/controller" />
       <recent name="$PROJECT_DIR$/src" />
@@ -427,7 +442,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="filestat" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--report --group 1000 --user 1000 $USER_HOME$/Desktop/filestat.in $USER_HOME$/Desktop/filestat.db" PASS_PARENT_ENVS_2="true" PROJECT_NAME="filestat" TARGET_NAME="filestat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="filestat" RUN_TARGET_NAME="filestat">
+    <configuration name="filestat" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://--noscan" PASS_PARENT_ENVS_2="true" PROJECT_NAME="filestat" TARGET_NAME="filestat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="filestat" RUN_TARGET_NAME="filestat">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -460,7 +475,7 @@
       <workItem from="1563282966521" duration="4249000" />
       <workItem from="1563293739760" duration="12102000" />
       <workItem from="1563382606104" duration="12272000" />
-      <workItem from="1563437323225" duration="6182000" />
+      <workItem from="1563437323225" duration="19571000" />
     </task>
     <task id="LOCAL-00001" summary="- backup">
       <created>1562510130335</created>
@@ -511,11 +526,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563438825684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- backup">
+      <created>1563443535124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563443535124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- backup">
+      <created>1563447560803</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563447560804</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185784000" />
+    <option name="totallyTimeSpent" value="199173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,13 +559,13 @@
     <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23134328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.5833333" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43617022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43530703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -597,19 +626,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.db" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/time.h" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/unistd.h" />
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/src/debug/glibc-2.29/sysdeps/posix/libc_fatal.c" />
     <entry file="file:///usr/include/features.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,31 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/app_config.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/help_printer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/help_printer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/previous_output.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -692,33 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/output_writer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="e#53#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/stats_producer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/file_utils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/sys/stat.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3048">
@@ -730,23 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/handlers/stats_producer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#69#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/output_writer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -805,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/cli_options.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/history_producer.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -852,9 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/controller.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/execution_stats_producer.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
@@ -872,43 +810,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#59#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#61#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -939,13 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
+    <entry file="file://$PROJECT_DIR$/src/entites/file_info.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -959,17 +857,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/file_info.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#59#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/options_parser.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/cli_options.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/stats_producer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="e#69#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/file_utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/previous_output.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/output_writer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/input_output_merger.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="21" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#65#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/output_writer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#53#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/help_printer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/app_config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#61#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/search_user_group.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="288">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/input_output_merger.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/handlers/stats_producer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1478">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.h">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/handlers/search_by_length.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/controller.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entites/app_config.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/filestat.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

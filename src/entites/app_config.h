@@ -23,6 +23,8 @@ typedef struct AppConfig_t {
   char *inputFileName;
   char *outputFileName;
   int optionsCount;
+  char *host;
+  int port;
 } AppConfig;
 
 AppConfig init_app_config ();

@@ -137,6 +137,12 @@
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/input_output_merger.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/input_output_merger.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/report_producer.c">
 			<Option target="filestat"/>
 		</Unit>
