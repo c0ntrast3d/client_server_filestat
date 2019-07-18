@@ -17,8 +17,8 @@ typedef struct AppConfig_t {
   int group;
   gid_t groupId;
   int length;
-  int lengthMin;
-  int lengthMax;
+  long int lengthMin;
+  long int lengthMax;
   int noscan;
   char *inputFileName;
   char *outputFileName;

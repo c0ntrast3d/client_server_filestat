@@ -11,6 +11,7 @@
 #include "../handlers/history_producer.h"
 #include "../handlers/report_producer.h"
 #include "../handlers/search_user_group.h"
+#include "../handlers/search_by_length.h"
 
 void start (int argc, char **argv)
 {
@@ -55,5 +56,12 @@ void start (int argc, char **argv)
     {
       printf ("\nGROUP :: PRINTING GROUP FILES INFO\n");
       print_group_files (get_group_files (previousOutputs, config.groupId), config.groupId);
+    }
+  if (config.length == 1)
+    {
+      printf ("\nLENGTH :: PRINTING INFO BY LENGTH\n");
+      FileInfoList byLength = get_files_by_length (previousOutputs, config.lengthMin, config.lengthMax);
+      print_files_by_length (byLength, config.lengthMin, config.lengthMax);
+
     }
 }

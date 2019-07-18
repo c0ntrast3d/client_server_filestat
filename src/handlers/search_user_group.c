@@ -35,7 +35,6 @@ FileInfoList get_group_files (PreviousOutputs previous, gid_t groupId)
     }
   FileInfoList groupFiles = create_file_infos ();
   PreviousOutputs currentOutput = previous->next;
-  print_previous_stats (currentOutput);
   while (currentOutput != NULL)
     {
       FileInfoList currentFile = currentOutput->info->next;
@@ -54,7 +53,7 @@ FileInfoList get_group_files (PreviousOutputs previous, gid_t groupId)
 
 void print_user_files (FileInfoList userFiles, uid_t userId)
 {
-  if (userFiles != NULL)
+  if (userFiles->next != NULL)
     {
       printf ("USER ID %u\n", userId);
       print_infos (userFiles);
@@ -67,7 +66,7 @@ void print_user_files (FileInfoList userFiles, uid_t userId)
 
 void print_group_files (FileInfoList groupFiles, uid_t groupId)
 {
-  if (groupFiles != NULL)
+  if (groupFiles->next != NULL)
     {
       printf ("GROUP ID %u\n", groupId);
       print_infos (groupFiles);

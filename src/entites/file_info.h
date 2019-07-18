@@ -9,7 +9,7 @@
 
 struct FileInfo {
   time_t date;
-  off_t fileSize;
+  long int fileSize;
   mode_t modes;
   time_t lastAccessed;
   time_t lastModified;

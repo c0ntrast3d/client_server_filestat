@@ -8,12 +8,12 @@
 #include "../io/help_printer.h"
 #include <regex.h>
 
-/*struct LengthMinMax {
-  long long min;
-  long long max;
-};*/
+struct LengthMinMax {
+  long int min;
+  long int max;
+};
 
-//static struct LengthMinMax try_get_length_min_max (char *inputString);
+static struct LengthMinMax try_get_length_min_max (char *inputString);
 
 void parse_options (int argc, char **argv, AppConfig *currentConfiguration)
 {
@@ -47,7 +47,9 @@ void parse_options (int argc, char **argv, AppConfig *currentConfiguration)
               exit (EXIT_FAILURE);
             }
           case 'l':currentConfiguration->length = 1;
-          //struct LengthMinMax tmp = try_get_length_min_max (optarg);
+          struct LengthMinMax lArgs = try_get_length_min_max (optarg);
+          currentConfiguration->lengthMin = lArgs.min;
+          currentConfiguration->lengthMax = lArgs.max;
           break;
           case 'n':currentConfiguration->noscan = 1;
           break;
@@ -56,7 +58,6 @@ void parse_options (int argc, char **argv, AppConfig *currentConfiguration)
           exit (EXIT_FAILURE);
           case '?':print_help ();
           exit (EXIT_FAILURE);
-          break;
           default:break;
         }
       currentOption = getopt_long (argc, argv, shortOptions, &LongOptions, &optionIndex);
@@ -64,21 +65,24 @@ void parse_options (int argc, char **argv, AppConfig *currentConfiguration)
   currentConfiguration->optionsCount = optind;
 }
 
-/*static struct LengthMinMax try_get_length_min_max (char *inputString)
+static struct LengthMinMax try_get_length_min_max (char *inputString)
 {
-  struct LengthMinMax result;
-  long long min = 0;
-  long long max = 0;
-  *//* if argument starts with : it means only max is specified *//*
+  long int min = 0;
+  long int max = 0;
   if (inputString[0] == ':')
     {
-      for (int counter = 1; counter < strlen (inputString); counter++)
+      sscanf (inputString, ":%ld", &max);
+    }
+  else
+    {
+      if (sscanf (inputString, "%ld:%ld", &min, &max) < 1)
         {
-          printf ("%lu", strtoumax (&inputString[counter], NULL, 10));
+          printf ("INVALID LENGTH ARGUMENTS\n");
+          print_help ();
+          exit (EXIT_FAILURE);
         }
     }
-  regex_t regex;
-  puts ((const char *) max);
+  struct LengthMinMax result = {.min = min, .max = max};
   return result;
-}*/
+}
 
