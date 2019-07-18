@@ -8,6 +8,8 @@
 #include "../entites/previous_output.h"
 #include <stdlib.h>
 #include <dirent.h>
+#include <dirent.h>
+#include "../utils/file_utils.h"
 #include <string.h>
 
 ProcessedFileInfoList get_stats (InputParameters inputParameters);

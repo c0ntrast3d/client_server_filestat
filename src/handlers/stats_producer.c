@@ -1,4 +1,3 @@
-#include <dirent.h>
 #include "stats_producer.h"
 
 static FileInfoList process_directory (char *path, int followLink);
@@ -19,8 +18,8 @@ ProcessedFileInfoList get_stats (InputParameters inputParameters)
     {
       if (currentParameter->recursive == 1)
         {
-          //printf ("RECURSIVE :: %s\n", currentParameter->path);
-          add_processed_file_info (fileInfoList, currentParameter->path, process_directory (currentParameter->path, currentParameter->followLink));
+          FileInfoList dirFiles = process_directory (currentParameter->path, currentParameter->followLink);
+          add_processed_file_info (fileInfoList, currentParameter->path, dirFiles);
         }
       else if (currentParameter->followLink == 1)
         {
@@ -45,29 +44,33 @@ ProcessedFileInfoList get_stats (InputParameters inputParameters)
 static FileInfoList process_directory (char *path, int followLink)
 {
   DIR *directory;
-  struct dirent *dir;
+  struct dirent *dirStream;
   struct stat statsBuffer;
+  char *filePath;
   FileInfoList currentFiles = create_file_infos ();
   directory = opendir (path);
   if (directory)
     {
-      while ((dir = readdir (directory)) != NULL)
+      while ((dirStream = readdir (directory)) != NULL)
         {
-          if (strcmp (dir->d_name, ".") == 0 || strcmp (dir->d_name, "..") == 0)
+          if (strcmp (dirStream->d_name, ".") == 0 || strcmp (dirStream->d_name, "..") == 0)
             {
               continue;
             }
-          //printf ("%s\n", dir->d_name);
+          filePath = malloc (sizeof (char[PATH_MAX]));
+          sprintf (filePath, "%s/%s", path, dirStream->d_name);
+          //printf ("%s\n", dirStream->d_name);
+
           if (followLink == 1)
             {
-              lstat (path, &statsBuffer);
+              lstat (filePath, &statsBuffer);
             }
           else
             {
-              stat (path, &statsBuffer);
+              stat (filePath, &statsBuffer);
             }
-          //printf ("PROCESSING DIR PATH :: %s\n", path);
           add_file_info (currentFiles, info_from_stat (&statsBuffer));
+
         }
       closedir (directory);
     }

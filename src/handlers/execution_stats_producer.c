@@ -2,63 +2,62 @@
 #include "stats_producer.h"
 #include "../entites/execution_stats.h"
 
-void print_execution_stats (ExecutionStats stats);
+static void print_execution_stats (ExecutionStats stats);
 
-void get_execution_stats (InputParameters parameters)
+void get_execution_stats (ProcessedFileInfoList processed)
 {
   ExecutionStats stats = init_execution_stats ();
-  ProcessedFileInfoList processed = get_stats (parameters);
   if (processed == NULL)
     {
       puts ("LIST IS EMPTY");
       return;
     }
   ProcessedFileInfoList current = processed->next;
-  int counter = 0;
+  int totalCount = 0;
   while (current != NULL)
     {
-      ++counter;
-      if (S_ISREG (current->info->modes))
+      FileInfoList currentFile = current->info->next;
+      while (currentFile != NULL)
         {
-          stats.monitoredFiles++;
-        }
-      else if (S_ISLNK (current->info->modes))
-        {
-          stats.linksCount++;
-        }
-      else if (S_ISDIR (current->info->modes))
-        {
-          stats.dirsCount++;
-        }
-      stats.totalSize += current->info->fileSize;
-      stats.averageSize = stats.totalSize / counter;
-      if (stats.minimumSize == 0)
-        {
-          stats.minimumSize = current->info->fileSize;
-        }
-      if (stats.minimumSize > current->info->fileSize)
-        {
-          stats.minimumSize = current->info->fileSize;
-        }
-      if (stats.maximumSize < current->info->fileSize)
-        {
-          stats.maximumSize = current->info->fileSize;
+          ++totalCount;
+          if (S_ISREG (currentFile->modes))
+            {
+              stats.monitoredFiles++;
+            }
+          else if (S_ISLNK (currentFile->modes))
+            {
+              stats.linksCount++;
+            }
+          else if (S_ISDIR (currentFile->modes))
+            {
+              stats.dirsCount++;
+            }
+          stats.totalSize += currentFile->fileSize;
+          stats.averageSize = stats.totalSize / totalCount;
+          if (stats.minimumSize == 0)
+            {
+              stats.minimumSize = currentFile->fileSize;
+            }
+          if (stats.minimumSize > currentFile->fileSize)
+            {
+              stats.minimumSize = currentFile->fileSize;
+            }
+          if (stats.maximumSize < currentFile->fileSize)
+            {
+              stats.maximumSize = currentFile->fileSize;
+            }
+          currentFile = currentFile->next;
         }
       current = current->next;
     }
   print_execution_stats (stats);
 }
 
-void print_report (clock_t startTime)
-{
-
-}
-
-void print_execution_stats (ExecutionStats stats)
+static void print_execution_stats (ExecutionStats stats)
 {
   printf ("Processed Files    :    %lu\n", stats.monitoredFiles);
   printf ("Processed Dirs     :    %lu\n", stats.dirsCount);
-  printf ("Processed LLinks   :    %lu\n", stats.linksCount);
+  printf ("Processed Links    :    %lu\n", stats.linksCount);
   printf ("Total Size         :    %lu\n", stats.totalSize);
   printf ("Average Size       :    %lu\n", stats.averageSize);
   printf ("Minimum Size       :    %lu\n", stats.minimumSize);

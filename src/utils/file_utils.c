@@ -58,6 +58,6 @@ FILE *try_open_or_create_file (char *path)
 int is_file (char *path)
 {
   struct stat path_stat;
-  stat (path, &path_stat);
-  return S_ISREG (path_stat.st_mode);
+  lstat (path, &path_stat);
+  return S_ISREG(path_stat.st_mode) & 0100000 ? 1 : 0;
 }

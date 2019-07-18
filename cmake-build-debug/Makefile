@@ -366,6 +366,33 @@ src/handlers/execution_stats_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s
 .PHONY : src/handlers/execution_stats_producer.c.s
 
+src/handlers/history_producer.o: src/handlers/history_producer.c.o
+
+.PHONY : src/handlers/history_producer.o
+
+# target to build an object file
+src/handlers/history_producer.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/history_producer.c.o
+.PHONY : src/handlers/history_producer.c.o
+
+src/handlers/history_producer.i: src/handlers/history_producer.c.i
+
+.PHONY : src/handlers/history_producer.i
+
+# target to preprocess a source file
+src/handlers/history_producer.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/history_producer.c.i
+.PHONY : src/handlers/history_producer.c.i
+
+src/handlers/history_producer.s: src/handlers/history_producer.c.s
+
+.PHONY : src/handlers/history_producer.s
+
+# target to generate assembly for a file
+src/handlers/history_producer.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/history_producer.c.s
+.PHONY : src/handlers/history_producer.c.s
+
 src/handlers/report_producer.o: src/handlers/report_producer.c.o
 
 .PHONY : src/handlers/report_producer.o
@@ -672,6 +699,9 @@ help:
 	@echo "... src/handlers/execution_stats_producer.o"
 	@echo "... src/handlers/execution_stats_producer.i"
 	@echo "... src/handlers/execution_stats_producer.s"
+	@echo "... src/handlers/history_producer.o"
+	@echo "... src/handlers/history_producer.i"
+	@echo "... src/handlers/history_producer.s"
 	@echo "... src/handlers/report_producer.o"
 	@echo "... src/handlers/report_producer.i"
 	@echo "... src/handlers/report_producer.s"

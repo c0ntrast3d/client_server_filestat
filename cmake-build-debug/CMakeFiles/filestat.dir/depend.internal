@@ -10,6 +10,8 @@ CMakeFiles/filestat.dir/src/controller/controller.c.o
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/app_config_producer.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/report_producer.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_reader.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/output_writer.h
@@ -49,7 +51,14 @@ CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.o
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.c
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
+CMakeFiles/filestat.dir/src/handlers/history_producer.c.o
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.c
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.h
 CMakeFiles/filestat.dir/src/handlers/report_producer.c.o
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/file_info.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/report_producer.c
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/report_producer.h
 CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o
@@ -58,6 +67,7 @@ CMakeFiles/filestat.dir/src/handlers/stats_producer.c.o
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/previous_output.h
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.h
+ /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.h
 CMakeFiles/filestat.dir/src/io/help_printer.c.o
  /home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/help_printer.c
 CMakeFiles/filestat.dir/src/io/output_reader.c.o

@@ -5,6 +5,6 @@
 #include <stdio.h>
 #include "../utils/file_utils.h"
 
-void write_output (char *file, FileInfoList infoList);
+void write_output (char *file, ProcessedFileInfoList infoList);
 
 #endif //_OUTPUT_WRITER_H_
