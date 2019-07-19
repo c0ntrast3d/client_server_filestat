@@ -1,4 +1,8 @@
+#ifndef _LOCAL_CONTROLLER_H_
+#define _LOCAL_CONTROLLER_H_
+
 #include <stdio.h>
+#include "../entites/app_config.h"
 #include "../handlers/app_config_producer.h"
 #include "../utils/file_utils.h"
 #include "../entites/input_parameters.h"
@@ -13,21 +17,7 @@
 #include "../handlers/search_user_group.h"
 #include "../handlers/search_by_length.h"
 #include "../handlers/input_output_merger.h"
-#include "local_controller.h"
 
-void start (int argc, char **argv)
-{
-  clock_t startTime = clock ();
-  AppConfig config = app_config_from_args (argc, argv);
+void start_local_filestat (AppConfig config, clock_t start);
 
-  if (config.port == 0 && config.host == NULL)
-    {
-      start_local_filestat (config, startTime);
-    }
-  else
-    {
-      printf ("HOST : %s\n", config.host);
-      printf ("PORT : %d\n", config.port);
-      printf ("SENDING REMOTE\n");
-    }
-}
+#endif //_LOCAL_CONTROLLER_H_

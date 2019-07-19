@@ -1,0 +1,4 @@
+#ifndef _REMOTE_CONTROLLER_H_
+#define _REMOTE_CONTROLLER_H_
+
+#endif //_REMOTE_CONTROLLER_H_

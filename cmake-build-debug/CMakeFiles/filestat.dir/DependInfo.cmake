@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/controller.c.o"
+  "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/local_controller.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/local_controller.c.o"
+  "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/remote_controller.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/controller/remote_controller.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/app_config.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/app_config.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/cli_options.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/cli_options.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/entites/execution_stats.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/entites/execution_stats.c.o"
@@ -25,6 +27,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/io/parameters_reader.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/io/parameters_reader.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/main.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/main.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/file_utils.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/file_utils.c.o"
+  "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/host_port_parser.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/host_port_parser.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/options_parser.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/options_parser.c.o"
   "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/params_parser.c" "/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/cmake-build-debug/CMakeFiles/filestat.dir/src/utils/params_parser.c.o"
   )

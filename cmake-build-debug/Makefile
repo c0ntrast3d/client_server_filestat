@@ -150,6 +150,60 @@ src/controller/controller.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/controller.c.s
 .PHONY : src/controller/controller.c.s
 
+src/controller/local_controller.o: src/controller/local_controller.c.o
+
+.PHONY : src/controller/local_controller.o
+
+# target to build an object file
+src/controller/local_controller.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/local_controller.c.o
+.PHONY : src/controller/local_controller.c.o
+
+src/controller/local_controller.i: src/controller/local_controller.c.i
+
+.PHONY : src/controller/local_controller.i
+
+# target to preprocess a source file
+src/controller/local_controller.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/local_controller.c.i
+.PHONY : src/controller/local_controller.c.i
+
+src/controller/local_controller.s: src/controller/local_controller.c.s
+
+.PHONY : src/controller/local_controller.s
+
+# target to generate assembly for a file
+src/controller/local_controller.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/local_controller.c.s
+.PHONY : src/controller/local_controller.c.s
+
+src/controller/remote_controller.o: src/controller/remote_controller.c.o
+
+.PHONY : src/controller/remote_controller.o
+
+# target to build an object file
+src/controller/remote_controller.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/remote_controller.c.o
+.PHONY : src/controller/remote_controller.c.o
+
+src/controller/remote_controller.i: src/controller/remote_controller.c.i
+
+.PHONY : src/controller/remote_controller.i
+
+# target to preprocess a source file
+src/controller/remote_controller.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/remote_controller.c.i
+.PHONY : src/controller/remote_controller.c.i
+
+src/controller/remote_controller.s: src/controller/remote_controller.c.s
+
+.PHONY : src/controller/remote_controller.s
+
+# target to generate assembly for a file
+src/controller/remote_controller.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/remote_controller.c.s
+.PHONY : src/controller/remote_controller.c.s
+
 src/entites/app_config.o: src/entites/app_config.c.o
 
 .PHONY : src/entites/app_config.o
@@ -690,6 +744,33 @@ src/utils/file_utils.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/file_utils.c.s
 .PHONY : src/utils/file_utils.c.s
 
+src/utils/host_port_parser.o: src/utils/host_port_parser.c.o
+
+.PHONY : src/utils/host_port_parser.o
+
+# target to build an object file
+src/utils/host_port_parser.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/host_port_parser.c.o
+.PHONY : src/utils/host_port_parser.c.o
+
+src/utils/host_port_parser.i: src/utils/host_port_parser.c.i
+
+.PHONY : src/utils/host_port_parser.i
+
+# target to preprocess a source file
+src/utils/host_port_parser.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/host_port_parser.c.i
+.PHONY : src/utils/host_port_parser.c.i
+
+src/utils/host_port_parser.s: src/utils/host_port_parser.c.s
+
+.PHONY : src/utils/host_port_parser.s
+
+# target to generate assembly for a file
+src/utils/host_port_parser.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/host_port_parser.c.s
+.PHONY : src/utils/host_port_parser.c.s
+
 src/utils/options_parser.o: src/utils/options_parser.c.o
 
 .PHONY : src/utils/options_parser.o
@@ -756,6 +837,12 @@ help:
 	@echo "... src/controller/controller.o"
 	@echo "... src/controller/controller.i"
 	@echo "... src/controller/controller.s"
+	@echo "... src/controller/local_controller.o"
+	@echo "... src/controller/local_controller.i"
+	@echo "... src/controller/local_controller.s"
+	@echo "... src/controller/remote_controller.o"
+	@echo "... src/controller/remote_controller.i"
+	@echo "... src/controller/remote_controller.s"
 	@echo "... src/entites/app_config.o"
 	@echo "... src/entites/app_config.i"
 	@echo "... src/entites/app_config.s"
@@ -816,6 +903,9 @@ help:
 	@echo "... src/utils/file_utils.o"
 	@echo "... src/utils/file_utils.i"
 	@echo "... src/utils/file_utils.s"
+	@echo "... src/utils/host_port_parser.o"
+	@echo "... src/utils/host_port_parser.i"
+	@echo "... src/utils/host_port_parser.s"
 	@echo "... src/utils/options_parser.o"
 	@echo "... src/utils/options_parser.i"
 	@echo "... src/utils/options_parser.s"

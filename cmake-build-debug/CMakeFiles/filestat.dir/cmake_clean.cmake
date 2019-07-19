@@ -22,6 +22,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/handlers/search_user_group.c.o"
   "CMakeFiles/filestat.dir/src/handlers/search_by_length.c.o"
   "CMakeFiles/filestat.dir/src/handlers/input_output_merger.c.o"
+  "CMakeFiles/filestat.dir/src/controller/local_controller.c.o"
+  "CMakeFiles/filestat.dir/src/utils/host_port_parser.c.o"
+  "CMakeFiles/filestat.dir/src/controller/remote_controller.c.o"
   "filestat.pdb"
   "filestat"
 )
