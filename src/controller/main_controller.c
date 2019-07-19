@@ -14,6 +14,7 @@
 #include "../handlers/search_by_length.h"
 #include "../handlers/input_output_merger.h"
 #include "local_controller.h"
+#include "remote_controller.h"
 
 void start (int argc, char **argv)
 {
@@ -28,6 +29,7 @@ void start (int argc, char **argv)
     {
       printf ("HOST : %s\n", config.host);
       printf ("PORT : %d\n", config.port);
-      printf ("SENDING REMOTE\n");
+      start_remote_filestat (config);
+
     }
 }

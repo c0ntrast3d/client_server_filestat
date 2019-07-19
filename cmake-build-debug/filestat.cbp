@@ -74,16 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.c">
-			<Option target="filestat"/>
-		</Unit>
-		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/controller.h">
-			<Option target="filestat"/>
-		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/local_controller.c">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/local_controller.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/main_controller.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/main_controller.h">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/controller/remote_controller.c">
@@ -143,6 +143,12 @@
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/execution_stats_producer.h">
 			<Option target="filestat"/>
 		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/fetch_stats.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/fetch_stats.h">
+			<Option target="filestat"/>
+		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/history_producer.c">
 			<Option target="filestat"/>
 		</Unit>
@@ -171,6 +177,12 @@
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/search_user_group.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/send_processed.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/send_processed.h">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/handlers/stats_producer.c">
@@ -228,6 +240,12 @@
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/params_parser.h">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/stringify_info.c">
+			<Option target="filestat"/>
+		</Unit>
+		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/src/utils/stringify_info.h">
 			<Option target="filestat"/>
 		</Unit>
 		<Unit filename="/home/c0ntrast3d/Documents/CLionProjects/os_lab_project/CMakeLists.txt">

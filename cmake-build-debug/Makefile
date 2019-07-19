@@ -123,33 +123,6 @@ filestat/fast:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/build
 .PHONY : filestat/fast
 
-src/controller/controller.o: src/controller/controller.c.o
-
-.PHONY : src/controller/controller.o
-
-# target to build an object file
-src/controller/controller.c.o:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/controller.c.o
-.PHONY : src/controller/controller.c.o
-
-src/controller/controller.i: src/controller/controller.c.i
-
-.PHONY : src/controller/controller.i
-
-# target to preprocess a source file
-src/controller/controller.c.i:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/controller.c.i
-.PHONY : src/controller/controller.c.i
-
-src/controller/controller.s: src/controller/controller.c.s
-
-.PHONY : src/controller/controller.s
-
-# target to generate assembly for a file
-src/controller/controller.c.s:
-	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/controller.c.s
-.PHONY : src/controller/controller.c.s
-
 src/controller/local_controller.o: src/controller/local_controller.c.o
 
 .PHONY : src/controller/local_controller.o
@@ -176,6 +149,33 @@ src/controller/local_controller.s: src/controller/local_controller.c.s
 src/controller/local_controller.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/local_controller.c.s
 .PHONY : src/controller/local_controller.c.s
+
+src/controller/main_controller.o: src/controller/main_controller.c.o
+
+.PHONY : src/controller/main_controller.o
+
+# target to build an object file
+src/controller/main_controller.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/main_controller.c.o
+.PHONY : src/controller/main_controller.c.o
+
+src/controller/main_controller.i: src/controller/main_controller.c.i
+
+.PHONY : src/controller/main_controller.i
+
+# target to preprocess a source file
+src/controller/main_controller.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/main_controller.c.i
+.PHONY : src/controller/main_controller.c.i
+
+src/controller/main_controller.s: src/controller/main_controller.c.s
+
+.PHONY : src/controller/main_controller.s
+
+# target to generate assembly for a file
+src/controller/main_controller.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/controller/main_controller.c.s
+.PHONY : src/controller/main_controller.c.s
 
 src/controller/remote_controller.o: src/controller/remote_controller.c.o
 
@@ -420,6 +420,33 @@ src/handlers/execution_stats_producer.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/execution_stats_producer.c.s
 .PHONY : src/handlers/execution_stats_producer.c.s
 
+src/handlers/fetch_stats.o: src/handlers/fetch_stats.c.o
+
+.PHONY : src/handlers/fetch_stats.o
+
+# target to build an object file
+src/handlers/fetch_stats.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/fetch_stats.c.o
+.PHONY : src/handlers/fetch_stats.c.o
+
+src/handlers/fetch_stats.i: src/handlers/fetch_stats.c.i
+
+.PHONY : src/handlers/fetch_stats.i
+
+# target to preprocess a source file
+src/handlers/fetch_stats.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/fetch_stats.c.i
+.PHONY : src/handlers/fetch_stats.c.i
+
+src/handlers/fetch_stats.s: src/handlers/fetch_stats.c.s
+
+.PHONY : src/handlers/fetch_stats.s
+
+# target to generate assembly for a file
+src/handlers/fetch_stats.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/fetch_stats.c.s
+.PHONY : src/handlers/fetch_stats.c.s
+
 src/handlers/history_producer.o: src/handlers/history_producer.c.o
 
 .PHONY : src/handlers/history_producer.o
@@ -554,6 +581,33 @@ src/handlers/search_user_group.s: src/handlers/search_user_group.c.s
 src/handlers/search_user_group.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/search_user_group.c.s
 .PHONY : src/handlers/search_user_group.c.s
+
+src/handlers/send_processed.o: src/handlers/send_processed.c.o
+
+.PHONY : src/handlers/send_processed.o
+
+# target to build an object file
+src/handlers/send_processed.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/send_processed.c.o
+.PHONY : src/handlers/send_processed.c.o
+
+src/handlers/send_processed.i: src/handlers/send_processed.c.i
+
+.PHONY : src/handlers/send_processed.i
+
+# target to preprocess a source file
+src/handlers/send_processed.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/send_processed.c.i
+.PHONY : src/handlers/send_processed.c.i
+
+src/handlers/send_processed.s: src/handlers/send_processed.c.s
+
+.PHONY : src/handlers/send_processed.s
+
+# target to generate assembly for a file
+src/handlers/send_processed.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/handlers/send_processed.c.s
+.PHONY : src/handlers/send_processed.c.s
 
 src/handlers/stats_producer.o: src/handlers/stats_producer.c.o
 
@@ -825,6 +879,33 @@ src/utils/params_parser.c.s:
 	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/params_parser.c.s
 .PHONY : src/utils/params_parser.c.s
 
+src/utils/stringify_info.o: src/utils/stringify_info.c.o
+
+.PHONY : src/utils/stringify_info.o
+
+# target to build an object file
+src/utils/stringify_info.c.o:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/stringify_info.c.o
+.PHONY : src/utils/stringify_info.c.o
+
+src/utils/stringify_info.i: src/utils/stringify_info.c.i
+
+.PHONY : src/utils/stringify_info.i
+
+# target to preprocess a source file
+src/utils/stringify_info.c.i:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/stringify_info.c.i
+.PHONY : src/utils/stringify_info.c.i
+
+src/utils/stringify_info.s: src/utils/stringify_info.c.s
+
+.PHONY : src/utils/stringify_info.s
+
+# target to generate assembly for a file
+src/utils/stringify_info.c.s:
+	$(MAKE) -f CMakeFiles/filestat.dir/build.make CMakeFiles/filestat.dir/src/utils/stringify_info.c.s
+.PHONY : src/utils/stringify_info.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -834,12 +915,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... filestat"
 	@echo "... edit_cache"
-	@echo "... src/controller/controller.o"
-	@echo "... src/controller/controller.i"
-	@echo "... src/controller/controller.s"
 	@echo "... src/controller/local_controller.o"
 	@echo "... src/controller/local_controller.i"
 	@echo "... src/controller/local_controller.s"
+	@echo "... src/controller/main_controller.o"
+	@echo "... src/controller/main_controller.i"
+	@echo "... src/controller/main_controller.s"
 	@echo "... src/controller/remote_controller.o"
 	@echo "... src/controller/remote_controller.i"
 	@echo "... src/controller/remote_controller.s"
@@ -867,6 +948,9 @@ help:
 	@echo "... src/handlers/execution_stats_producer.o"
 	@echo "... src/handlers/execution_stats_producer.i"
 	@echo "... src/handlers/execution_stats_producer.s"
+	@echo "... src/handlers/fetch_stats.o"
+	@echo "... src/handlers/fetch_stats.i"
+	@echo "... src/handlers/fetch_stats.s"
 	@echo "... src/handlers/history_producer.o"
 	@echo "... src/handlers/history_producer.i"
 	@echo "... src/handlers/history_producer.s"
@@ -882,6 +966,9 @@ help:
 	@echo "... src/handlers/search_user_group.o"
 	@echo "... src/handlers/search_user_group.i"
 	@echo "... src/handlers/search_user_group.s"
+	@echo "... src/handlers/send_processed.o"
+	@echo "... src/handlers/send_processed.i"
+	@echo "... src/handlers/send_processed.s"
 	@echo "... src/handlers/stats_producer.o"
 	@echo "... src/handlers/stats_producer.i"
 	@echo "... src/handlers/stats_producer.s"
@@ -912,6 +999,9 @@ help:
 	@echo "... src/utils/params_parser.o"
 	@echo "... src/utils/params_parser.i"
 	@echo "... src/utils/params_parser.s"
+	@echo "... src/utils/stringify_info.o"
+	@echo "... src/utils/stringify_info.i"
+	@echo "... src/utils/stringify_info.s"
 .PHONY : help
 
 

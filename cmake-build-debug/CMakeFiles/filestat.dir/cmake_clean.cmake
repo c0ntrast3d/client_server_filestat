@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/main.c.o"
   "CMakeFiles/filestat.dir/src/entites/cli_options.c.o"
-  "CMakeFiles/filestat.dir/src/controller/controller.c.o"
+  "CMakeFiles/filestat.dir/src/controller/main_controller.c.o"
   "CMakeFiles/filestat.dir/src/handlers/app_config_producer.c.o"
   "CMakeFiles/filestat.dir/src/io/help_printer.c.o"
   "CMakeFiles/filestat.dir/src/entites/app_config.c.o"
@@ -25,6 +25,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/filestat.dir/src/controller/local_controller.c.o"
   "CMakeFiles/filestat.dir/src/utils/host_port_parser.c.o"
   "CMakeFiles/filestat.dir/src/controller/remote_controller.c.o"
+  "CMakeFiles/filestat.dir/src/utils/stringify_info.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/send_processed.c.o"
+  "CMakeFiles/filestat.dir/src/handlers/fetch_stats.c.o"
   "filestat.pdb"
   "filestat"
 )

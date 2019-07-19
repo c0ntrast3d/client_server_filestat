@@ -1,4 +1,5 @@
 #include "local_controller.h"
+#include "../utils/stringify_info.h"
 
 void start_local_filestat (AppConfig config, clock_t startTime)
 {
@@ -50,6 +51,8 @@ void start_local_filestat (AppConfig config, clock_t startTime)
           FileInfoList byLength = get_files_by_length (processedInfos, config.lengthMin, config.lengthMax);
           print_files_by_length (byLength, config.lengthMin, config.lengthMax);
         }
+      char *str = stringify_file_info (processedInfos);
+      puts (str);
       merged = merge_current_with_previous (processedInfos, previousOutputs);
       write_output (config.outputFileName, merged);
     }

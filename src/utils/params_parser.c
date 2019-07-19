@@ -6,7 +6,14 @@ void parse_params (int argc, char **argv, int optionsCount, AppConfig *currentCo
     {
       if (argv[optionsCount] != NULL)
         {
-          currentConfiguration->inputFileName = argv[optionsCount];
+          if (is_host (argv[argc - 2]) == 1)
+            {
+              currentConfiguration->host = DEFAULT_INPUT_FILE_NAME;
+            }
+          else
+            {
+              currentConfiguration->inputFileName = argv[optionsCount];
+            }
         }
       if (argv[optionsCount + 1] != NULL)
         {
@@ -19,7 +26,7 @@ void parse_params (int argc, char **argv, int optionsCount, AppConfig *currentCo
         }
       if (is_host (argv[argc - 2]))
         {
-          currentConfiguration->host = argv[optionsCount];
+          currentConfiguration->host = argv[argc - 2];
         }
       else
         {

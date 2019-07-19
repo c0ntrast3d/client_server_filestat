@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "io/help_printer.h"
-#include "controller/controller.h"
+#include "controller/main_controller.h"
 
 /*
  * print usage info if no arguments provided -> fail fast

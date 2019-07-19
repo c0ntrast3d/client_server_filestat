@@ -2,7 +2,7 @@
 
 int is_host (char *arg)
 {
-  printf ("PARAMS PARSER IS HOST : : ARGS %s\n", arg);
+  //printf ("PARAMS PARSER IS HOST : : ARGS %s\n", arg);
   struct sockaddr_in serv_addr;
   if (inet_pton (AF_INET, arg, &serv_addr.sin_addr) != 1)
     {
@@ -19,6 +19,6 @@ int parse_port (char *input)
 
 int is_port (char *arg)
 {
-  printf ("PARAMS PARSER IS PORT : : ARGS %s\n", arg);
+  //printf ("PARAMS PARSER IS PORT : : ARGS %s\n", arg);
   return 1;
 }
